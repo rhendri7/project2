@@ -1,0 +1,2305 @@
+<!DOCTYPE html>
+<!-- saved from url=(0061)https://canvas.uoregon.edu/courses/218245/assignments/1412661 -->
+<html class="" dir="ltr" lang="en"><script type="text/javascript" async="" src="./Project 2_files/heap-3001039959.js"></script><script>(function() { window.mturksuite = true; })();</script><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta name="sentry-trace" content="5c392668d7ff406099f6f49f662ab3f6-a7a991d579191929-0">
+  <link rel="preload" href="https://du11hjcvx0uqb.cloudfront.net/dist/fonts/lato/extended/Lato-Regular-bd03a2cc27.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+  <link rel="preload" href="https://du11hjcvx0uqb.cloudfront.net/dist/fonts/lato/extended/Lato-Bold-cccb897485.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+  <link rel="preload" href="https://du11hjcvx0uqb.cloudfront.net/dist/fonts/lato/extended/Lato-Italic-4eb103b4d1.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+  <link rel="stylesheet" href="./Project 2_files/fonts-43e9c545fc.css" media="screen">
+    <script>if (navigator.userAgent.match(/(MSIE|Trident\/)/)) location.replace('/ie-is-not-supported.html')</script>
+  
+  <link rel="icon" type="image/x-icon" href="https://du11hjcvx0uqb.cloudfront.net/dist/images/favicon-e10d657a73.ico">
+  <link rel="apple-touch-icon" href="https://du11hjcvx0uqb.cloudfront.net/dist/images/apple-touch-icon-585e5d997d.png">
+  <link rel="stylesheet" href="./Project 2_files/variables-7dd4b80918af0e0218ec0229e4bd5873.css" media="all">
+  <link rel="stylesheet" href="./Project 2_files/common-9778a037a7.css" media="all">
+  <meta name="apple-itunes-app" content="app-id=480883488">
+<link rel="manifest" href="https://canvas.uoregon.edu/web-app-manifest/manifest.json">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#1a3e30">
+  <meta name="robots" content="noindex,nofollow">
+  <link rel="stylesheet" href="./Project 2_files/assignments-81a86619c8.css" media="all">
+<link rel="stylesheet" href="./Project 2_files/tinymce-59c32fac15.css" media="all">
+<link rel="stylesheet" href="./Project 2_files/learning_outcomes-a9a9fe5d8b.css" media="all">
+  <link rel="stylesheet" href="./Project 2_files/css_override.css" media="all">
+  <script>
+    function _earlyClick(e){
+      var c = e.target
+      while (c && c.ownerDocument) {
+        if (c.getAttribute('href') == '#' || c.getAttribute('data-method')) {
+          if (!e.defaultPrevented) {
+            e.preventDefault()
+          }
+          (_earlyClick.clicks = _earlyClick.clicks || []).push(c)
+          break
+        }
+        c = c.parentNode
+      }
+    }
+    document.addEventListener('click', _earlyClick)
+  </script>
+
+
+  <script>
+    INST = {"environment":"production","allowMediaComments":true,"kalturaSettings":{"domain":"nv.instructuremedia.com","resource_domain":"nv.instructuremedia.com","rtmp_domain":"iad.rtmp.instructuremedia.com","partner_id":"9","subpartner_id":"0","player_ui_conf":"0","kcw_ui_conf":"0","upload_ui_conf":"0","max_file_size_bytes":534773760,"do_analytics":false,"hide_rte_button":false,"js_uploader":true},"disableGooglePreviews":true,"logPageViews":true,"editorButtons":[{"name":"YouTube","id":37,"favorite":true,"url":"https://www.edu-apps.org/lti_public_resources/?tool_id=youtube","icon_url":"https://www.edu-apps.org/assets/lti_public_resources/youtube_icon.png","canvas_icon_class":null,"width":560,"height":600,"use_tray":false,"description":"\u003cp\u003eSearch publicly available YouTube videos. A new icon will show up in your course rich editor letting you search YouTube and click to embed videos in your course material.\u003c/p\u003e\n"},{"name":"YouTube Uploader","id":38,"favorite":false,"url":"https://www.edu-apps.org/tool_redirect?id=youtube_upload","icon_url":"https://www.edu-apps.org/tools/youtube_upload/icon.png","canvas_icon_class":null,"width":550,"height":400,"use_tray":false,"description":"\u003cp\u003eRecord videos from your webcam or upload them from your desktop into your personal YouTube account. Newly-created videos are automatically linked within your course content.\u003c/p\u003e\n"},{"name":"Vimeo","id":117,"favorite":false,"url":"https://www.edu-apps.org/lti_public_resources/?tool_id=vimeo","icon_url":"https://www.edu-apps.org/assets/lti_public_resources/vimeo_icon.png","canvas_icon_class":null,"width":560,"height":600,"use_tray":false,"description":"\u003cp\u003eVimeo is a video sharing website on which users can upload, share, and view videos. The community of Vimeo includes indie, professional, and novice filmmakers.\u003c/p\u003e\n"},{"name":"Panopto Recordings","id":796,"favorite":true,"url":"https://uoregon.hosted.panopto.com/Panopto/LTI/LTI.aspx","icon_url":"https://uoregon.hosted.panopto.com/Panopto/images/panopto_logo_globe.png","canvas_icon_class":null,"width":900,"height":700,"use_tray":false,"description":""},{"name":"Library Research Help","id":9318,"favorite":false,"url":"https://uoregon.libapps.com/libapps/lti1p3/launch/39715","icon_url":"https://libapps.s3.amazonaws.com/apps/libapps/images/favicon_lti.png","canvas_icon_class":"icon-lti","width":800,"height":400,"use_tray":false,"description":"\u003cp\u003eLibrary Research Help for LTI 1.3\u003c/p\u003e\n"}]};
+    ENV = {"ASSET_HOST":"https://du11hjcvx0uqb.cloudfront.net","active_brand_config_json_url":"https://du11hjcvx0uqb.cloudfront.net/dist/brandable_css/7a905af65d4919961171b03dd60dc0f8/variables-7dd4b80918af0e0218ec0229e4bd5873.json","active_brand_config":{"md5":"7a905af65d4919961171b03dd60dc0f8","variables":{"ic-link-color":"#0055cc","ic-brand-global-nav-bgd":"#1a3e30","ic-brand-global-nav-logo-bgd":"#1a3e30","ic-brand-header-image":"https://instructure-uploads.s3.amazonaws.com/account_23910000000000001/attachments/3017944/UO_Canvas_Logo.jpg?AWSAccessKeyId=AKIAJFNFXH2V2O7RPCAA\u0026Expires=1939366897\u0026Signature=Bh3C9ABtI87Mue3%2FqAj%2F75MGG04%3D\u0026response-cache-control=Cache-Control%3Amax-age%3D473364000.0%2C%20public\u0026response-expires=473364000.0","ic-brand-watermark-opacity":"1","ic-brand-Login-body-bgd-color":"#1a3e30","ic-brand-Login-logo":"https://instructure-uploads.s3.amazonaws.com/account_23910000000000001/attachments/3017949/Green-White_UO_Canvas.jpg?AWSAccessKeyId=AKIAJFNFXH2V2O7RPCAA\u0026Expires=1939367208\u0026Signature=hDbbwHaox4NDH6%2BkdfNZ18R1DNQ%3D\u0026response-cache-control=Cache-Control%3Amax-age%3D473364000.0%2C%20public\u0026response-expires=473364000.0"},"share":false,"name":null,"created_at":"2023-01-30T13:25:14-08:00","js_overrides":"https://instructure-uploads.s3.amazonaws.com/account_23910000000000001/attachments/15494127/Custom.js","css_overrides":"https://instructure-uploads.s3.amazonaws.com/account_23910000000000001/attachments/3413137/css_override.css?AWSAccessKeyId=AKIAJFNFXH2V2O7RPCAA\u0026Expires=1953227201\u0026Signature=6A4hu5fayKAKLYllceOBCGj55ko%3D\u0026response-cache-control=Cache-Control%3Amax-age%3D473364000.0%2C%20public\u0026response-expires=473364000.0","parent_md5":null,"mobile_js_overrides":"https://instructure-uploads.s3.amazonaws.com/account_23910000000000001/attachments/15221873/Mobile.js","mobile_css_overrides":""},"confetti_branding_enabled":false,"url_to_what_gets_loaded_inside_the_tinymce_editor_css":["https://du11hjcvx0uqb.cloudfront.net/dist/brandable_css/7a905af65d4919961171b03dd60dc0f8/variables-7dd4b80918af0e0218ec0229e4bd5873.css","https://du11hjcvx0uqb.cloudfront.net/dist/brandable_css/new_styles_normal_contrast/bundles/what_gets_loaded_inside_the_tinymce_editor-a64c7fe33c.css","https://du11hjcvx0uqb.cloudfront.net/dist/brandable_css/no_variables/bundles/fonts-43e9c545fc.css"],"url_for_high_contrast_tinymce_editor_css":["https://du11hjcvx0uqb.cloudfront.net/dist/brandable_css/default/variables-high_contrast-7dd4b80918af0e0218ec0229e4bd5873.css","https://du11hjcvx0uqb.cloudfront.net/dist/brandable_css/new_styles_high_contrast/bundles/what_gets_loaded_inside_the_tinymce_editor-fa0672d544.css","https://du11hjcvx0uqb.cloudfront.net/dist/brandable_css/no_variables/bundles/fonts-43e9c545fc.css"],"current_user_id":"139803","current_user_global_id":"23910000000139803","current_user_roles":["user","student"],"current_user_is_student":true,"current_user_types":[],"current_user_disabled_inbox":false,"current_user_visited_tabs":null,"discussions_reporting":false,"files_domain":"cluster37.canvas-user-content.com","group_information":null,"DOMAIN_ROOT_ACCOUNT_ID":"23910000000000001","k12":false,"help_link_name":"Help","help_link_icon":"help","use_high_contrast":false,"auto_show_cc":false,"disable_celebrations":false,"disable_keyboard_shortcuts":false,"LTI_LAUNCH_FRAME_ALLOWANCES":["geolocation *","microphone *","camera *","midi *","encrypted-media *","autoplay *","clipboard-write *","display-capture *"],"DEEP_LINKING_POST_MESSAGE_ORIGIN":"https://canvas.uoregon.edu","DEEP_LINKING_LOGGING":null,"comment_library_suggestions_enabled":false,"SETTINGS":{"open_registration":false,"collapse_global_nav":false,"release_notes_badge_disabled":false,"filter_speed_grader_by_student_group":false},"FULL_STORY_ENABLED":false,"RAILS_ENVIRONMENT":"Production","SENTRY_FRONTEND":{"dsn":"https://355a1d96717e4038ac25aa852fa79a8f@relay-iad.sentry.insops.net/388","org_slug":"instructure","base_url":"https://sentry.insops.net","normalized_route":"/courses/{course_id}/assignments/{id}","errors_sample_rate":"0.0005","traces_sample_rate":"0.0005","url_deny_pattern":"instructure-uploads.*amazonaws.com","revision":"canvas-lms@20230426.195"},"DATA_COLLECTION_ENDPOINT":"https://canvas-frontend-data-iad-prod.inscloudgate.net/submit","DIRECT_SHARE_ENABLED":false,"CAN_VIEW_CONTENT_SHARES":false,"FEATURES":{"featured_help_links":true,"lti_platform_storage":false,"scale_equation_images":true,"buttons_and_icons_cropper":true,"calendar_series":false,"account_level_blackout_dates":false,"account_calendar_events":true,"rce_ux_improvements":false,"render_both_to_do_lists":false,"course_paces_redesign":false,"course_paces_for_students":false,"rce_better_paste":true,"module_publish_menu":false,"explicit_latex_typesetting":false,"dev_key_oidc_alert":false,"rce_new_external_tool_dialog_in_canvas":false,"rce_show_studio_media_options":false,"rce_improved_placeholders":true,"product_tours":false,"files_dnd":true,"usage_rights_discussion_topics":true,"granular_permissions_manage_users":true,"create_course_subaccount_picker":true,"lti_deep_linking_module_index_menu_modal":true,"lti_multiple_assignment_deep_linking":true,"buttons_and_icons_root_account":false,"extended_submission_state":false,"scheduled_page_publication":true,"send_usage_metrics":true,"rce_transform_loaded_content":false,"embedded_release_notes":false,"canvas_k6_theme":false,"new_math_equation_handling":true},"current_user":{"id":"139803","anonymous_id":"2zvf","display_name":"Rj Hendrix","avatar_image_url":"https://canvas.uoregon.edu/images/messages/avatar-50.png","html_url":"https://canvas.uoregon.edu/about/139803","pronouns":null,"avatar_is_fallback":true},"page_view_update_url":"/page_views/0dcfc3a5-3199-45b5-9296-5eda44da9dbd?page_view_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpIjoiMGRjZmMzYTUtMzE5OS00NWI1LTkyOTYtNWVkYTQ0ZGE5ZGJkIiwidSI6MjM5MTAwMDAwMDAxMzk4MDMsImMiOiIyMDIzLTA0LTI3VDAyOjM2OjEyLjk3WiJ9.qV5d-BX5n1SvrN_HB7optO0kH8Sug3J2zufA7ckkwCQ","context_asset_string":"course_218245","ping_url":"https://canvas.uoregon.edu/api/v1/courses/218245/ping","TIMEZONE":"America/Los_Angeles","CONTEXT_TIMEZONE":"America/Los_Angeles","LOCALES":["en"],"BIGEASY_LOCALE":"en_US","FULLCALENDAR_LOCALE":"en","MOMENT_LOCALE":"en","rce_auto_save_max_age_ms":86400000,"K5_USER":false,"USE_CLASSIC_FONT":false,"K5_HOMEROOM_COURSE":false,"K5_SUBJECT_COURSE":false,"LOCALE_TRANSLATION_FILE":"/dist/javascripts/translations/en-888412cb6b.json","media_comment_asset_string":"user_139803","COURSE_ID":"218245","SUBMISSION_ID":"65145655","FIRST_ANNOTATION_SUBMISSION":false,"RICH_CONTENT_APP_HOST":"rich-content-iad.inscloudgate.net","JWT":"ZXlKaGJHY2lPaUprYVhJaUxDSmxibU1pT2lKQk1qVTJSME5OSWl3aWNtVm5hVzl1SWpvaWRYTXRaV0Z6ZEMweElpd2laVzUyYVhKdmJtMWxiblFpT2lKUWNtOWtkV04wYVc5dUluMC4uRXhnZDdtOWhGMUE5cHZLLS52WFktMzZiOWttMjJBdEFxR2l5S3UzMmVVMFJFUGQ3dUlLM3gtZTFwUXdQd2J0RVNEb2JzazNRY01xVkVRSUNLQVljUWNnZmlrWVNJM3UwcnpncFluLVlKeFk1S0lENGhUSXFnMFNJOEJnRy1wN01wdnIzeUx5V3lqYXlRbENfZTRFc1VHV09YUERmYmF2QkNWaTRNSmRTSWI5T2FmWTM0dnhaMldIM0pROTJqNm1NQnluZHU3S2pOUnUzcE1LUzZZckNXX1R6ZjIxcFhIYUt3ZXZfS1NyVlRjT0dNUUEteXpadXN1UXBQZnR1b0JwOHFrbDlCZS1RSk9DaTZ6QUhqOWVCQUhrSnJNSXR5ZkFhVlNQaS02OFNFb2Y3Yk1tQV96MjR0TWxfcWc0NU1HU2dKLXlXaWpIYWFFRUNMY1V6UjlLVXhjYnFhS2MzRGxKbmIteEUtVm9GS0VsS1A4VlluYms2N3hxX25uRDcxN2VQM1p1QWQ2MXlGazlEQzJ4bVlPWFZqR2RqRnp1TW5fMzBTNUJ0MnZnM09CSnp6eEVGTkdRRFZGOU9aVVFXMUthclJNaWFiR3ZJXzlHa1VIZXJkTUFxOTMyUGsxYzdBRkE5cmJ2NW1DdTl6TGdHYnVDVjlHek9mMElvYi1Va3BzX0dLUUFfSEt2RmZ2QUNLOWVGOVp5TnFDc1VWaWZaSnN5RjZxVWJHMW9KSi02VHE1azR2VG9zZE9oVmpObnVZaFE0bVNwYmpwS2xseG1FUVo1amlId0RPSWtBdWlETGpTM0s5Q2dfdTFJOHRNTjZubmlmRE9hQkJHc3RlVVl5Q20wNXhXVTBaZlNUeF9WQS1aX3hQUkx0cWx2TXNiNVQyckMtbEY0dXlwSEdCaV9TdHlieTVFdVZCWU4wZWdXQzc4TFFUQm9YcTNMOHBKY0h0czAxVlpPdUxEWW1hMUU5OWdjX3JGejB6VXRmVTVaWkJZcGFKT3l4cHRfVExlY05pT0J3ZTFMUlBrWWZyamd4d1VlMlVrTF9xVmMzQXliSDFDM0M3UzljcXFNUV9PcEU0N3A3ak9GYUtLRm8udzhFYXp2emVHTC14ZFN6RnVhZDZRdw==","RICH_CONTENT_CAN_UPLOAD_FILES":false,"RICH_CONTENT_CAN_EDIT_FILES":false,"RICH_CONTENT_FILES_TAB_DISABLED":false,"RICH_CONTENT_INST_RECORD_TAB_DISABLED":false,"ASSIGNMENT_ID":"1412661","PREREQS":{},"EULA_URL":null,"EXTERNAL_TOOLS":[],"PERMISSIONS":{"context":{"read_as_admin":false,"manage_assignments":false,"manage_assignments_edit":false},"assignment":{"update":false,"submit":true},"can_manage_groups":true},"ROOT_OUTCOME_GROUP":{"id":"52283","title":"CIT 281 (Spring 2023; 32118) Web Applicat Dev I","vendor_guid":null,"url":"/api/v1/courses/218245/outcome_groups/52283","subgroups_url":"/api/v1/courses/218245/outcome_groups/52283/subgroups","outcomes_url":"/api/v1/courses/218245/outcome_groups/52283/outcomes","can_edit":false,"import_url":"/api/v1/courses/218245/outcome_groups/52283/import","context_id":"218245","context_type":"Course","description":null},"SIMILARITY_PLEDGE":null,"CONFETTI_ENABLED":true,"EMOJIS_ENABLED":false,"EMOJI_DENY_LIST":null,"USER_ASSET_STRING":"user_139803","SUBMIT_ASSIGNMENT":{"ALLOWED_EXTENSIONS":["zip"],"ID":"1412661","GROUP_ID_FOR_USER":null},"badge_counts":{"submissions":2},"notices":[],"active_context_tab":"assignments"};
+    BRANDABLE_CSS_HANDLEBARS_INDEX = [["new_styles_normal_contrast","new_styles_high_contrast","new_styles_normal_contrast_rtl","new_styles_high_contrast_rtl"],{"10":["8300658022",0,"250b5824c2",2],"15":["fc26aa5fd4",0,"f904416063",2],"19":["df5777ed9c"],"61":["f3934dab06","f405852bb2","ee5810890b","3fd9943b9a"],"67":["8b57f54e71",0,"43833dde85",2],"71":["35b89b103a","4304be7d41","58dbfc2651","2932678b1c"],"06":["cb9f63cba6",0,"2be010fc14",2],"f0":["7c947dce20",0,0,0],"c8":["12d5e4d1e8","9f7b02d283","4ebd280f3e","b547456f4c"],"1e":["02e336724a","d7bb142b0a","d7ac7fdfb8","c03b9b261e"],"b3":["8ebc71ebc3","cf8efa05c8","4efdc93a21","fd6d3a9780"],"4f":["0a2c3dcf2f",0,"79668e6396",2],"0c":["c26e82abac",0,"b71e9cbd6d",2],"da":["efb9fe6d7c","edbd1b5e83","a6dc56afb7","dfb2d13098"],"1d":["a3bfcb7961",0,"90682b3bbe",2],"08":["64bff5a97d"],"e2":["11429f119a"],"9f":["35936a18c3",0,0,0],"2b":["abf63f48ef","bf8e135ffe","378e0c136b","9833e305e6"],"2c":["6d919206cd",0,0,0],"c2":["6f2721ae01"],"9c":["ecafc938e4",0,"59e7c22304",2],"c5":["ebf0e1382f","7f587d9a8a","afbdabf23d","0d398196a8"],"f2":["51574f9b13"]}]
+;
+  </script>
+
+  <link rel="preload" href="./Project 2_files/variables-7dd4b80918af0e0218ec0229e4bd5873.js" as="script" type="text/javascript"><link rel="preload" href="./Project 2_files/Los_Angeles-6699c54112.js" as="script" type="text/javascript"><link rel="preload" href="./Project 2_files/Los_Angeles-6699c54112.js" as="script" type="text/javascript"><link rel="preload" href="./Project 2_files/en_US-80a0ce259b.js" as="script" type="text/javascript"><link rel="preload" href="./Project 2_files/main-e-7756e21a8a.js" as="script" type="text/javascript" crossorigin="anonymous"><script>
+//<![CDATA[
+
+      ;["https://du11hjcvx0uqb.cloudfront.net/dist/brandable_css/7a905af65d4919961171b03dd60dc0f8/variables-7dd4b80918af0e0218ec0229e4bd5873.js", "https://du11hjcvx0uqb.cloudfront.net/dist/timezone/America/Los_Angeles-6699c54112.js", "https://du11hjcvx0uqb.cloudfront.net/dist/timezone/America/Los_Angeles-6699c54112.js", "https://du11hjcvx0uqb.cloudfront.net/dist/timezone/en_US-80a0ce259b.js"].forEach(function(src) {
+        var s = document.createElement('script'); s.src = src; s.async = false;
+        document.head.appendChild(s)
+      });
+//]]>
+</script><script src="./Project 2_files/variables-7dd4b80918af0e0218ec0229e4bd5873.js"></script><script src="./Project 2_files/Los_Angeles-6699c54112.js"></script><script src="./Project 2_files/Los_Angeles-6699c54112.js"></script><script src="./Project 2_files/en_US-80a0ce259b.js"></script><script>
+//<![CDATA[
+
+      ;["https://du11hjcvx0uqb.cloudfront.net/dist/webpack-production/main-e-7756e21a8a.js"].forEach(function(src) {
+        var s = document.createElement('script'); s.src = src; s.async = false; s.crossOrigin = 'anonymous';
+        document.head.appendChild(s)
+      });
+//]]>
+</script><script src="./Project 2_files/main-e-7756e21a8a.js" crossorigin="anonymous"></script><link rel="preload" href="https://du11hjcvx0uqb.cloudfront.net/dist/webpack-production/assignment_show-c-99e016056c.js" as="script" type="text/javascript"><link rel="preload" href="https://du11hjcvx0uqb.cloudfront.net/dist/webpack-production/submit_assignment-c-5640f0ee44.js" as="script" type="text/javascript"><link rel="preload" href="https://du11hjcvx0uqb.cloudfront.net/dist/webpack-production/edit_rubric-c-a9f02c00c9.js" as="script" type="text/javascript"><link rel="preload" href="https://du11hjcvx0uqb.cloudfront.net/dist/webpack-production/navigation_header-c-ce3a9c7168.js" as="script" type="text/javascript"><script>
+//<![CDATA[
+(window.bundles || (window.bundles = [])).push('assignment_show');
+(window.bundles || (window.bundles = [])).push('submit_assignment');
+(window.bundles || (window.bundles = [])).push('edit_rubric');
+(window.bundles || (window.bundles = [])).push('navigation_header');
+//]]>
+</script>
+  <title>Project 2</title>
+
+
+
+    <script type="text/javascript">
+      window.heap=window.heap||[],heap.load=function(e,t){window.heap.appid=e,window.heap.config=t=t||{};var r=document.createElement("script");r.type="text/javascript",r.async=!0,r.src="https://cdn.heapanalytics.com/js/heap-"+e+".js";var a=document.getElementsByTagName("script")[0];a.parentNode.insertBefore(r,a);for(var n=function(e){return function(){heap.push([e].concat(Array.prototype.slice.call(arguments,0)))}},p=["addEventProperties","addUserProperties","clearEventProperties","identify","resetIdentity","removeEventProperty","setEventProperties","track","unsetEventProperty"],o=0;o<p.length;o++)heap[p[o]]=n(p[o])};
+      heap.load("3001039959");
+    </script>
+
+<script src="./Project 2_files/Custom.js"></script><style type="text/css"></style><style>.ExternalAppsRoot .AppList .btn.pull-right {display: inline-block;}</style><style type="text/css" data-glamor=""></style><link rel="stylesheet" href="./Project 2_files/googleDocsTreeView-0a2c3dcf2f.css" data-loaded-by-brandablecss="true"><style type="text/css">.mejs-offscreen{clip:rect(1px 1px 1px 1px);clip:rect(1px,1px,1px,1px);clip-path:polygon(0px 0,0 0,0 0,0 0);position:absolute!important;height:1px;width:1px;overflow:hidden}.mejs-container{position:relative;background:#000;font-family:Helvetica,Arial,serif;text-align:left;vertical-align:top;text-indent:0}.mejs-fill-container,.mejs-fill-container .mejs-container{width:100%;height:100%}.mejs-fill-container{overflow:hidden}.mejs-container:focus{outline:0}.me-plugin{position:absolute}.mejs-embed,.mejs-embed body{width:100%;height:100%;margin:0;padding:0;background:#000;overflow:hidden}.mejs-fullscreen{overflow:hidden!important}.mejs-container-fullscreen{position:fixed;left:0;top:0;right:0;bottom:0;overflow:hidden;z-index:1000}.mejs-container-fullscreen .mejs-mediaelement,.mejs-container-fullscreen video{width:100%;height:100%}.mejs-clear{clear:both}.mejs-background{position:absolute;top:0;left:0}.mejs-mediaelement{position:absolute;top:0;left:0;width:100%;height:100%}.mejs-poster{position:absolute;top:0;left:0;background-size:contain;background-position:50% 50%;background-repeat:no-repeat}:root .mejs-poster img{display:none}.mejs-poster img{border:0;padding:0}.mejs-overlay{position:absolute;top:0;left:0}.mejs-overlay-play{cursor:pointer}.mejs-overlay-button{position:absolute;top:50%;left:50%;width:100px;height:100px;margin:-50px 0 0 -50px;background:url(https://du11hjcvx0uqb.cloudfront.net/dist/webpack-production/746c3af7a145a09239a36e5ef61cfea0.svg) no-repeat}.no-svg .mejs-overlay-button{background-image:url(https://du11hjcvx0uqb.cloudfront.net/dist/webpack-production/716436fb3df0d29e6b37dd62d952676a.png)}.mejs-overlay:hover .mejs-overlay-button{background-position:0 -100px}.mejs-overlay-loading{position:absolute;top:50%;left:50%;width:80px;height:80px;margin:-40px 0 0 -40px;background:#333;background:url(https://du11hjcvx0uqb.cloudfront.net/dist/webpack-production/703c659e4bf563a05c6338a1727e006c.png);background:rgba(0,0,0,.9);background:-webkit-gradient(linear,0 0,0 100%,from(rgba(50,50,50,.9)),to(rgba(0,0,0,.9)));background:-webkit-linear-gradient(top,rgba(50,50,50,.9),rgba(0,0,0,.9));background:-moz-linear-gradient(top,rgba(50,50,50,.9),rgba(0,0,0,.9));background:-o-linear-gradient(top,rgba(50,50,50,.9),rgba(0,0,0,.9));background:-ms-linear-gradient(top,rgba(50,50,50,.9),rgba(0,0,0,.9));background:linear-gradient(rgba(50,50,50,.9),rgba(0,0,0,.9))}.mejs-overlay-loading span{display:block;width:80px;height:80px;background:transparent url(https://du11hjcvx0uqb.cloudfront.net/dist/webpack-production/76b326f4d44222126fee21076595bef5.gif) 50% 50% no-repeat}.mejs-container .mejs-controls{position:absolute;list-style-type:none;margin:0;padding:0;bottom:0;left:0;background:url(https://du11hjcvx0uqb.cloudfront.net/dist/webpack-production/703c659e4bf563a05c6338a1727e006c.png);background:rgba(0,0,0,.7);background:-webkit-gradient(linear,0 0,0 100%,from(rgba(50,50,50,.7)),to(rgba(0,0,0,.7)));background:-webkit-linear-gradient(top,rgba(50,50,50,.7),rgba(0,0,0,.7));background:-moz-linear-gradient(top,rgba(50,50,50,.7),rgba(0,0,0,.7));background:-o-linear-gradient(top,rgba(50,50,50,.7),rgba(0,0,0,.7));background:-ms-linear-gradient(top,rgba(50,50,50,.7),rgba(0,0,0,.7));background:linear-gradient(rgba(50,50,50,.7),rgba(0,0,0,.7));height:30px;width:100%}.mejs-container .mejs-controls div{list-style-type:none;background-image:none;display:block;float:left;margin:0;padding:0;width:26px;height:26px;font-size:11px;line-height:11px;font-family:Helvetica,Arial,serif;border:0}.mejs-controls .mejs-button button{cursor:pointer;display:block;font-size:0;line-height:0;text-decoration:none;margin:7px 5px;padding:0;position:absolute;height:16px;width:16px;border:0;background:transparent url(https://du11hjcvx0uqb.cloudfront.net/dist/webpack-production/40f56f5a736da4effeb790cedb8a52f0.svg) no-repeat}.no-svg .mejs-controls .mejs-button button{background-image:url(https://du11hjcvx0uqb.cloudfront.net/dist/webpack-production/24a0227fbdd3acfd86ff03fc3fc6c8a4.png)}.mejs-controls .mejs-button button:focus{outline:dotted 1px #999}.mejs-container .mejs-controls .mejs-time{color:#fff;display:block;height:17px;width:auto;padding:10px 3px 0;overflow:hidden;text-align:center;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}.mejs-container .mejs-controls .mejs-time a{color:#fff;font-size:11px;line-height:12px;display:block;float:left;margin:1px 2px 0 0;width:auto}.mejs-controls .mejs-play button{background-position:0 0}.mejs-controls .mejs-pause button{background-position:0 -16px}.mejs-controls .mejs-stop button{background-position:-112px 0}.mejs-controls div.mejs-time-rail{direction:ltr;width:200px;padding-top:5px}.mejs-controls .mejs-time-rail span,.mejs-controls .mejs-time-rail a{display:block;position:absolute;width:180px;height:10px;-webkit-border-radius:2px;-moz-border-radius:2px;border-radius:2px;cursor:pointer}.mejs-controls .mejs-time-rail .mejs-time-total{margin:5px;background:#333;background:rgba(50,50,50,.8);background:-webkit-gradient(linear,0 0,0 100%,from(rgba(30,30,30,.8)),to(rgba(60,60,60,.8)));background:-webkit-linear-gradient(top,rgba(30,30,30,.8),rgba(60,60,60,.8));background:-moz-linear-gradient(top,rgba(30,30,30,.8),rgba(60,60,60,.8));background:-o-linear-gradient(top,rgba(30,30,30,.8),rgba(60,60,60,.8));background:-ms-linear-gradient(top,rgba(30,30,30,.8),rgba(60,60,60,.8));background:linear-gradient(rgba(30,30,30,.8),rgba(60,60,60,.8))}.mejs-controls .mejs-time-rail .mejs-time-buffering{width:100%;background-image:-o-linear-gradient(-45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent);background-image:-webkit-gradient(linear,0 100%,100% 0,color-stop(0.25,rgba(255,255,255,.15)),color-stop(0.25,transparent),color-stop(0.5,transparent),color-stop(0.5,rgba(255,255,255,.15)),color-stop(0.75,rgba(255,255,255,.15)),color-stop(0.75,transparent),to(transparent));background-image:-webkit-linear-gradient(-45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent);background-image:-moz-linear-gradient(-45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent);background-image:-ms-linear-gradient(-45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent);background-image:linear-gradient(-45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent);-webkit-background-size:15px 15px;-moz-background-size:15px 15px;-o-background-size:15px 15px;background-size:15px 15px;-webkit-animation:buffering-stripes 2s linear infinite;-moz-animation:buffering-stripes 2s linear infinite;-ms-animation:buffering-stripes 2s linear infinite;-o-animation:buffering-stripes 2s linear infinite;animation:buffering-stripes 2s linear infinite}@-webkit-keyframes buffering-stripes{from{background-position:0 0}to{background-position:30px 0}}@-moz-keyframes buffering-stripes{from{background-position:0 0}to{background-position:30px 0}}@-ms-keyframes buffering-stripes{from{background-position:0 0}to{background-position:30px 0}}@-o-keyframes buffering-stripes{from{background-position:0 0}to{background-position:30px 0}}@keyframes buffering-stripes{from{background-position:0 0}to{background-position:30px 0}}.mejs-controls .mejs-time-rail .mejs-time-loaded{background:#3caac8;background:rgba(60,170,200,.8);background:-webkit-gradient(linear,0 0,0 100%,from(rgba(44,124,145,.8)),to(rgba(78,183,212,.8)));background:-webkit-linear-gradient(top,rgba(44,124,145,.8),rgba(78,183,212,.8));background:-moz-linear-gradient(top,rgba(44,124,145,.8),rgba(78,183,212,.8));background:-o-linear-gradient(top,rgba(44,124,145,.8),rgba(78,183,212,.8));background:-ms-linear-gradient(top,rgba(44,124,145,.8),rgba(78,183,212,.8));background:linear-gradient(rgba(44,124,145,.8),rgba(78,183,212,.8));width:0}.mejs-controls .mejs-time-rail .mejs-time-current{background:#fff;background:rgba(255,255,255,.8);background:-webkit-gradient(linear,0 0,0 100%,from(rgba(255,255,255,.9)),to(rgba(200,200,200,.8)));background:-webkit-linear-gradient(top,rgba(255,255,255,.9),rgba(200,200,200,.8));background:-moz-linear-gradient(top,rgba(255,255,255,.9),rgba(200,200,200,.8));background:-o-linear-gradient(top,rgba(255,255,255,.9),rgba(200,200,200,.8));background:-ms-linear-gradient(top,rgba(255,255,255,.9),rgba(200,200,200,.8));background:linear-gradient(rgba(255,255,255,.9),rgba(200,200,200,.8));width:0}.mejs-controls .mejs-time-rail .mejs-time-handle{display:none;position:absolute;margin:0;width:10px;background:#fff;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;cursor:pointer;border:solid 2px #333;top:-2px;text-align:center}.mejs-controls .mejs-time-rail .mejs-time-float{position:absolute;display:none;background:#eee;width:36px;height:17px;border:solid 1px #333;top:-26px;margin-left:-18px;text-align:center;color:#111}.mejs-controls .mejs-time-rail .mejs-time-float-current{margin:2px;width:30px;display:block;text-align:center;left:0}.mejs-controls .mejs-time-rail .mejs-time-float-corner{position:absolute;display:block;width:0;height:0;line-height:0;border:solid 5px #eee;border-color:#eee transparent transparent;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;top:15px;left:13px}.mejs-long-video .mejs-controls .mejs-time-rail .mejs-time-float{width:48px}.mejs-long-video .mejs-controls .mejs-time-rail .mejs-time-float-current{width:44px}.mejs-long-video .mejs-controls .mejs-time-rail .mejs-time-float-corner{left:18px}.mejs-controls .mejs-fullscreen-button button{background-position:-32px 0}.mejs-controls .mejs-unfullscreen button{background-position:-32px -16px}.mejs-controls .mejs-volume-button{}.mejs-controls .mejs-mute button{background-position:-16px -16px}.mejs-controls .mejs-unmute button{background-position:-16px 0}.mejs-controls .mejs-volume-button{position:relative}.mejs-controls .mejs-volume-button .mejs-volume-slider{height:115px;width:25px;background:url(https://du11hjcvx0uqb.cloudfront.net/dist/webpack-production/703c659e4bf563a05c6338a1727e006c.png);background:rgba(50,50,50,.7);-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;top:-115px;left:0;z-index:1;position:absolute;margin:0}.mejs-controls .mejs-volume-button:hover{-webkit-border-radius:0 0 4px 4px;-moz-border-radius:0 0 4px 4px;border-radius:0 0 4px 4px}.mejs-controls .mejs-volume-button .mejs-volume-slider .mejs-volume-total{position:absolute;left:11px;top:8px;width:2px;height:100px;background:#ddd;background:rgba(255,255,255,.5);margin:0}.mejs-controls .mejs-volume-button .mejs-volume-slider .mejs-volume-current{position:absolute;left:11px;top:8px;width:2px;height:100px;background:#ddd;background:rgba(255,255,255,.9);margin:0}.mejs-controls .mejs-volume-button .mejs-volume-slider .mejs-volume-handle{position:absolute;left:4px;top:-3px;width:16px;height:6px;background:#ddd;background:rgba(255,255,255,.9);cursor:N-resize;-webkit-border-radius:1px;-moz-border-radius:1px;border-radius:1px;margin:0}.mejs-controls a.mejs-horizontal-volume-slider{height:26px;width:56px;position:relative;display:block;float:left;vertical-align:middle}.mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-total{position:absolute;left:0;top:11px;width:50px;height:8px;margin:0;padding:0;font-size:1px;-webkit-border-radius:2px;-moz-border-radius:2px;border-radius:2px;background:#333;background:rgba(50,50,50,.8);background:-webkit-gradient(linear,0 0,0 100%,from(rgba(30,30,30,.8)),to(rgba(60,60,60,.8)));background:-webkit-linear-gradient(top,rgba(30,30,30,.8),rgba(60,60,60,.8));background:-moz-linear-gradient(top,rgba(30,30,30,.8),rgba(60,60,60,.8));background:-o-linear-gradient(top,rgba(30,30,30,.8),rgba(60,60,60,.8));background:-ms-linear-gradient(top,rgba(30,30,30,.8),rgba(60,60,60,.8));background:linear-gradient(rgba(30,30,30,.8),rgba(60,60,60,.8))}.mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-current{position:absolute;left:0;top:11px;width:50px;height:8px;margin:0;padding:0;font-size:1px;-webkit-border-radius:2px;-moz-border-radius:2px;border-radius:2px;background:#fff;background:rgba(255,255,255,.8);background:-webkit-gradient(linear,0 0,0 100%,from(rgba(255,255,255,.9)),to(rgba(200,200,200,.8)));background:-webkit-linear-gradient(top,rgba(255,255,255,.9),rgba(200,200,200,.8));background:-moz-linear-gradient(top,rgba(255,255,255,.9),rgba(200,200,200,.8));background:-o-linear-gradient(top,rgba(255,255,255,.9),rgba(200,200,200,.8));background:-ms-linear-gradient(top,rgba(255,255,255,.9),rgba(200,200,200,.8));background:linear-gradient(rgba(255,255,255,.9),rgba(200,200,200,.8))}.mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-handle{display:none}.mejs-controls .mejs-captions-button{position:relative}.mejs-controls .mejs-captions-button button{background-position:-48px 0}.mejs-controls .mejs-captions-button .mejs-captions-selector{position:absolute;bottom:26px;right:-51px;width:85px;height:100px;background:url(https://du11hjcvx0uqb.cloudfront.net/dist/webpack-production/703c659e4bf563a05c6338a1727e006c.png);background:rgba(50,50,50,.7);border:solid 1px transparent;padding:10px 10px 0;overflow:hidden;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0}.mejs-controls .mejs-captions-button .mejs-captions-selector ul{margin:0;padding:0;display:block;list-style-type:none!important;overflow:hidden}.mejs-controls .mejs-captions-button .mejs-captions-selector ul li{margin:0 0 6px;padding:0;list-style-type:none!important;display:block;color:#fff;overflow:hidden}.mejs-controls .mejs-captions-button .mejs-captions-selector ul li input{clear:both;float:left;margin:3px 3px 0 5px}.mejs-controls .mejs-captions-button .mejs-captions-selector ul li label{width:55px;float:left;padding:4px 0 0;line-height:15px;font-family:Helvetica,Arial,serif;font-size:10px}.mejs-controls .mejs-captions-button .mejs-captions-translations{font-size:10px;margin:0 0 5px}.mejs-chapters{position:absolute;top:0;left:0;border-right:solid 1px #fff;width:10000px;z-index:1}.mejs-chapters .mejs-chapter{position:absolute;float:left;background:#222;background:rgba(0,0,0,.7);background:-webkit-gradient(linear,0 0,0 100%,from(rgba(50,50,50,.7)),to(rgba(0,0,0,.7)));background:-webkit-linear-gradient(top,rgba(50,50,50,.7),rgba(0,0,0,.7));background:-moz-linear-gradient(top,rgba(50,50,50,.7),rgba(0,0,0,.7));background:-o-linear-gradient(top,rgba(50,50,50,.7),rgba(0,0,0,.7));background:-ms-linear-gradient(top,rgba(50,50,50,.7),rgba(0,0,0,.7));background:linear-gradient(rgba(50,50,50,.7),rgba(0,0,0,.7));filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0, startColorstr=#323232, endColorstr=#000000);overflow:hidden;border:0}.mejs-chapters .mejs-chapter .mejs-chapter-block{font-size:11px;color:#fff;padding:5px;display:block;border-right:solid 1px #333;border-bottom:solid 1px #333;cursor:pointer}.mejs-chapters .mejs-chapter .mejs-chapter-block-last{border-right:0}.mejs-chapters .mejs-chapter .mejs-chapter-block:hover{background:#666;background:rgba(102,102,102,.7);background:-webkit-gradient(linear,0 0,0 100%,from(rgba(102,102,102,.7)),to(rgba(50,50,50,.6)));background:-webkit-linear-gradient(top,rgba(102,102,102,.7),rgba(50,50,50,.6));background:-moz-linear-gradient(top,rgba(102,102,102,.7),rgba(50,50,50,.6));background:-o-linear-gradient(top,rgba(102,102,102,.7),rgba(50,50,50,.6));background:-ms-linear-gradient(top,rgba(102,102,102,.7),rgba(50,50,50,.6));background:linear-gradient(rgba(102,102,102,.7),rgba(50,50,50,.6));filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0, startColorstr=#666666, endColorstr=#323232)}.mejs-chapters .mejs-chapter .mejs-chapter-block .ch-title{font-size:12px;font-weight:700;display:block;white-space:nowrap;text-overflow:ellipsis;margin:0 0 3px;line-height:12px}.mejs-chapters .mejs-chapter .mejs-chapter-block .ch-timespan{font-size:12px;line-height:12px;margin:3px 0 4px;display:block;white-space:nowrap;text-overflow:ellipsis}.mejs-captions-layer{position:absolute;bottom:0;left:0;text-align:center;line-height:20px;font-size:16px;color:#fff}.mejs-captions-layer a{color:#fff;text-decoration:underline}.mejs-captions-layer[lang=ar]{font-size:20px;font-weight:400}.mejs-captions-position{position:absolute;width:100%;bottom:15px;left:0}.mejs-captions-position-hover{bottom:35px}.mejs-captions-text,.mejs__captions-text *{padding:0;background:url(https://du11hjcvx0uqb.cloudfront.net/dist/webpack-production/703c659e4bf563a05c6338a1727e006c.png);background:rgba(20,20,20,.5);white-space:pre-wrap;-webkit-box-shadow:5px 0 0 rgba(20,20,20,.5),-5px 0 0 rgba(20,20,20,.5);box-shadow:5px 0 0 rgba(20,20,20,.5),-5px 0 0 rgba(20,20,20,.5)}.me-cannotplay{}.me-cannotplay a{color:#fff;font-weight:700}.me-cannotplay span{padding:15px;display:block}.mejs-controls .mejs-loop-off button{background-position:-64px -16px}.mejs-controls .mejs-loop-on button{background-position:-64px 0}.mejs-controls .mejs-backlight-off button{background-position:-80px -16px}.mejs-controls .mejs-backlight-on button{background-position:-80px 0}.mejs-controls .mejs-picturecontrols-button{background-position:-96px 0}.mejs-contextmenu{position:absolute;width:150px;padding:10px;border-radius:4px;top:0;left:0;background:#fff;border:solid 1px #999;z-index:1001}.mejs-contextmenu .mejs-contextmenu-separator{height:1px;font-size:0;margin:5px 6px;background:#333}.mejs-contextmenu .mejs-contextmenu-item{font-family:Helvetica,Arial,serif;font-size:12px;padding:4px 6px;cursor:pointer;color:#333}.mejs-contextmenu .mejs-contextmenu-item:hover{background:#2C7C91;color:#fff}.mejs-controls .mejs-sourcechooser-button{position:relative}.mejs-controls .mejs-sourcechooser-button button{background-position:-128px 0}.mejs-controls .mejs-sourcechooser-button .mejs-sourcechooser-selector{position:absolute;bottom:26px;right:-10px;width:130px;height:100px;background:url(https://du11hjcvx0uqb.cloudfront.net/dist/webpack-production/703c659e4bf563a05c6338a1727e006c.png);background:rgba(50,50,50,.7);border:solid 1px transparent;padding:10px;overflow:hidden;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0}.mejs-controls .mejs-sourcechooser-button .mejs-sourcechooser-selector ul{margin:0;padding:0;display:block;list-style-type:none!important;overflow:hidden}.mejs-controls .mejs-sourcechooser-button .mejs-sourcechooser-selector ul li{margin:0 0 6px;padding:0;list-style-type:none!important;display:block;color:#fff;overflow:hidden}.mejs-controls .mejs-sourcechooser-button .mejs-sourcechooser-selector ul li input{clear:both;float:left;margin:3px 3px 0 5px}.mejs-controls .mejs-sourcechooser-button .mejs-sourcechooser-selector ul li label{width:100px;float:left;padding:4px 0 0;line-height:15px;font-family:Helvetica,Arial,serif;font-size:10px}.mejs-postroll-layer{position:absolute;bottom:0;left:0;width:100%;height:100%;background:url(https://du11hjcvx0uqb.cloudfront.net/dist/webpack-production/703c659e4bf563a05c6338a1727e006c.png);background:rgba(50,50,50,.7);z-index:1000;overflow:hidden}.mejs-postroll-layer-content{width:100%;height:100%}.mejs-postroll-close{position:absolute;right:0;top:0;background:url(https://du11hjcvx0uqb.cloudfront.net/dist/webpack-production/703c659e4bf563a05c6338a1727e006c.png);background:rgba(50,50,50,.7);color:#fff;padding:4px;z-index:100;cursor:pointer}div.mejs-speed-button{width:46px!important;position:relative}.mejs-controls .mejs-button.mejs-speed-button button{background:transparent;width:36px;font-size:11px;line-height:normal;color:#fff}.mejs-controls .mejs-speed-button .mejs-speed-selector{position:absolute;top:-100px;left:-10px;width:60px;height:100px;background:url(https://du11hjcvx0uqb.cloudfront.net/dist/webpack-production/703c659e4bf563a05c6338a1727e006c.png);background:rgba(50,50,50,.7);border:solid 1px transparent;padding:0;overflow:hidden;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0}.mejs-controls .mejs-speed-button .mejs-speed-selector ul li label.mejs-speed-selected{color:rgba(33,248,248,1)}.mejs-controls .mejs-speed-button .mejs-speed-selector ul{margin:0;padding:0;display:block;list-style-type:none!important;overflow:hidden}.mejs-controls .mejs-speed-button .mejs-speed-selector ul li{margin:0 0 6px;padding:0 10px;list-style-type:none!important;display:block;color:#fff;overflow:hidden}.mejs-controls .mejs-speed-button .mejs-speed-selector ul li input{clear:both;float:left;margin:3px 3px 0 5px}.mejs-controls .mejs-speed-button .mejs-speed-selector ul li label{width:60px;float:left;padding:4px 0 0;line-height:15px;font-family:Helvetica,Arial,serif;font-size:11px;color:#fff;margin-left:5px;cursor:pointer}.mejs-controls .mejs-speed-button .mejs-speed-selector ul li:hover{background-color:#c8c8c8!important;background-color:rgba(255,255,255,.4)!important}.mejs-controls .mejs-button.mejs-jump-forward-button{background:transparent url(https://du11hjcvx0uqb.cloudfront.net/dist/webpack-production/15e1ac8cbacc2efdf1ac2677de48a253.png) no-repeat 3px 3px}.mejs-controls .mejs-button.mejs-jump-forward-button button{background:transparent;font-size:9px;line-height:normal;color:#fff}.mejs-controls .mejs-button.mejs-skip-back-button{background:transparent url(https://du11hjcvx0uqb.cloudfront.net/dist/webpack-production/cd6dc830eb45b3a5a96bbc936ff54846.png) no-repeat 3px 3px}.mejs-controls .mejs-button.mejs-skip-back-button button{background:transparent;font-size:9px;line-height:normal;color:#fff}</style><style type="text/css">/*
+ * Copyright (C) 2014 - present Instructure, Inc.
+ *
+ * This file is part of Canvas.
+ *
+ * Canvas is free software: you can redistribute it and/or modify it under
+ * the terms of the GNU Affero General Public License as published by the Free
+ * Software Foundation, version 3 of the License.
+ *
+ * Canvas is distributed in the hope that it will be useful, but WITHOUT ANY
+ * WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR
+ * A PARTICULAR PURPOSE. See the GNU Affero General Public License for more
+ * details.
+ *
+ * You should have received a copy of the GNU Affero General Public License along
+ * with this program. If not, see <http://www.gnu.org/licenses/>.
+ */
+
+/* customizations to mediaelementplayer css */
+
+/*
+  Because this file is not proccessed by our brandable_css sass pipeline,
+  it cannot use our sass-direction helpers. So we have to handle RTL manually
+  by putting direction-specific styles in [dir="ltr"] or [dir="rtl"] blocks.
+*/
+/* stylelint-disable property-disallowed-list, declaration-property-value-disallowed-list */
+
+/* good menu widths */
+.mejs-sourcechooser-selector {
+  width: 160px;
+}
+.mejs-sourcechooser-selector label {
+  width: 160px !important;
+}
+
+.mejs-captions-selector {
+  width: 105px;
+}
+[dir="ltr"]  .mejs-captions-selector { text-align: left }
+[dir="rtl"]  .mejs-captions-selector { text-align: right }
+
+.mejs-captions-selector label {
+  width: 70px !important;
+}
+
+/* Subtitile upload link */
+.mejs-captions-selector .upload-track {
+  color: white;
+  margin-top: 3px;
+  margin-bottom: 5px;
+}
+[dir="ltr"] .mejs-captions-selector .upload-track {
+  margin-right: 0px;
+  margin-left: 5px;
+  float: left;
+}
+[dir="rtl"] .mejs-captions-selector .upload-track {
+  margin-left: 0px;
+  margin-right: 5px;
+  float: right;
+}
+
+/* "x" button to remove a subtitle */
+.mejs-captions-selector a[data-remove] {
+  position: absolute;
+  top: 0;
+  color: white;
+}
+[dir="ltr"] .mejs-captions-selector a[data-remove] { right: 0 }
+[dir="rtl"] .mejs-captions-selector a[data-remove] { left: 0 }
+
+
+/* style menu items without a radio button */
+.mejs-button [role="menu"] {
+  padding: 0 !important;
+}
+ /* compensate for above 0 padding */
+ .mejs-button [role="menu"] ul li {
+  position: relative;
+  padding: 0 10px !important;
+}
+/* add a hover effect */
+.mejs-button [role="menu"] ul li:hover {
+  background-color: #c8c8c8 !important;
+  background-color: rgba(255, 255, 255, 0.4) !important;
+}
+.mejs-button [role="menu"] ul li input {
+  border: 0;
+  clip: rect(0 0 0 0);
+  position: absolute;
+  overflow: hidden;
+  margin: -1px;
+  padding: 0;
+  width: 1px;
+  height: 1px;
+}
+.mejs-button [role="menu"] ul li label {
+  cursor: pointer;
+}
+[dir="ltr"] .mejs-button [role="menu"] ul li label { margin-left: 5px }
+[dir="rtl"] .mejs-button [role="menu"] ul li label { margin-right: 5px }
+
+
+.mejs-button [role="menu"] label.mejs-selected {
+  color: #21f8f8 !important;
+}
+
+/* stylelint-enable property-disallowed-list, declaration-property-value-disallowed-list */
+</style><link rel="stylesheet" href="./Project 2_files/PaginatedView-6d919206cd.css" data-loaded-by-brandablecss="true"><link rel="stylesheet" href="./Project 2_files/TreeBrowser-ebf0e1382f.css" data-loaded-by-brandablecss="true"><link rel="stylesheet" href="./Project 2_files/MoveOutcomeDialog-35936a18c3.css" data-loaded-by-brandablecss="true"></head>
+
+<body class="with-left-side course-menu-expanded with-right-side assignments primary-nav-expanded context-course_218245 responsive_student_grades_page webkit chrome no-touch">
+
+<noscript>
+  <div role="alert" class="ic-flash-static ic-flash-error">
+    <div class="ic-flash__icon" aria-hidden="true">
+      <i class="icon-warning"></i>
+    </div>
+    <h1>You need to have JavaScript enabled in order to access this site.</h1>
+  </div>
+</noscript>
+
+
+
+
+<div id="flash_message_holder"></div>
+<div id="flash_screenreader_holder" role="alert" aria-live="assertive" aria-relevant="additions" class="screenreader-only" aria-atomic="true"></div>
+
+<div id="application" class="ic-app">
+  
+
+
+
+<header id="mobile-header" class="no-print">
+  <button type="button" class="Button Button--icon-action-rev Button--large mobile-header-hamburger">
+    <i class="icon-solid icon-hamburger"></i>
+    <span id="mobileHeaderInboxUnreadBadge" class="menu-item__badge" style="min-width: 0px; top: 12px; height: 12px; right: 6px;"></span>
+    <span class="screenreader-only">Dashboard</span>
+  </button>
+  <div class="mobile-header-space"></div>
+    <a class="mobile-header-title expandable" href="https://canvas.uoregon.edu/courses/218245" role="button" aria-controls="mobileContextNavContainer">
+      <div>CIT 281</div>
+        <div>Project 2</div>
+    </a>
+    <div class="mobile-header-space"></div>
+    <button type="button" class="Button Button--icon-action-rev Button--large mobile-header-arrow" aria-label="Navigation Menu">
+      <i class="icon-arrow-open-down" id="mobileHeaderArrowIcon"></i>
+    </button>
+</header>
+<nav id="mobileContextNavContainer"></nav>
+
+<header id="header" class="ic-app-header no-print ">
+  <a href="https://canvas.uoregon.edu/courses/218245/assignments/1412661#content" id="skip_navigation_link">Skip To Content</a>
+  <div role="region" class="ic-app-header__main-navigation" aria-label="Global Navigation">
+      <div class="ic-app-header__logomark-container">
+        <a href="https://canvas.uoregon.edu/" class="ic-app-header__logomark">
+          <span class="screenreader-only">Dashboard</span>
+        </a>
+      </div>
+    <ul id="menu" class="ic-app-header__menu-list">
+        <li class="menu-item ic-app-header__menu-list-item ">
+          <button id="global_nav_profile_link" class="ic-app-header__menu-list-link">
+            <div class="menu-item-icon-container">
+              <div aria-hidden="true" class="fs-exclude ic-avatar ">
+                <img src="./Project 2_files/avatar-50.png" alt="Rj Hendrix">
+              </div>
+              <span class="menu-item__badge"></span>
+            </div>
+            <div class="menu-item__text">
+              Account
+            </div>
+          </button>
+        </li>
+      <li class="ic-app-header__menu-list-item ">
+        <a id="global_nav_dashboard_link" href="https://canvas.uoregon.edu/" class="ic-app-header__menu-list-link">
+          <div class="menu-item-icon-container" aria-hidden="true">
+            <svg xmlns="http://www.w3.org/2000/svg" class="ic-icon-svg ic-icon-svg--dashboard" version="1.1" x="0" y="0" viewBox="0 0 280 200" enable-background="new 0 0 280 200" xml:space="preserve"><path d="M273.09,180.75H197.47V164.47h62.62A122.16,122.16,0,1,0,17.85,142a124,124,0,0,0,2,22.51H90.18v16.29H6.89l-1.5-6.22A138.51,138.51,0,0,1,1.57,142C1.57,65.64,63.67,3.53,140,3.53S278.43,65.64,278.43,142a137.67,137.67,0,0,1-3.84,32.57ZM66.49,87.63,50.24,71.38,61.75,59.86,78,76.12Zm147,0L202,76.12l16.25-16.25,11.51,11.51ZM131.85,53.82v-23h16.29v23Zm15.63,142.3a31.71,31.71,0,0,1-28-16.81c-6.4-12.08-15.73-72.29-17.54-84.25a8.15,8.15,0,0,1,13.58-7.2c8.88,8.21,53.48,49.72,59.88,61.81a31.61,31.61,0,0,1-27.9,46.45ZM121.81,116.2c4.17,24.56,9.23,50.21,12,55.49A15.35,15.35,0,1,0,161,157.3C158.18,152,139.79,133.44,121.81,116.2Z"></path></svg>
+
+          </div>
+          <div class="menu-item__text">
+            Dashboard
+          </div>
+        </a>
+      </li>
+        <li class="menu-item ic-app-header__menu-list-item ic-app-header__menu-list-item--active">
+          <button id="global_nav_courses_link" class="ic-app-header__menu-list-link">
+            <div class="menu-item-icon-container" aria-hidden="true">
+              <svg xmlns="http://www.w3.org/2000/svg" class="ic-icon-svg ic-icon-svg--courses" version="1.1" x="0" y="0" viewBox="0 0 280 259" enable-background="new 0 0 280 259" xml:space="preserve"><path d="M73.31,198c-11.93,0-22.22,8-24,18.73a26.67,26.67,0,0,0-.3,3.63v.3a22,22,0,0,0,5.44,14.65,22.47,22.47,0,0,0,17.22,8H200V228.19h-134V213.08H200V198Zm21-105.74h90.64V62H94.3ZM79.19,107.34V46.92H200v60.42Zm7.55,30.21V122.45H192.49v15.11ZM71.65,16.71A22.72,22.72,0,0,0,49,39.36V190.88a41.12,41.12,0,0,1,24.32-8h157V16.71ZM33.88,39.36A37.78,37.78,0,0,1,71.65,1.6H245.36V198H215.15v45.32h22.66V258.4H71.65a37.85,37.85,0,0,1-37.76-37.76Z"></path></svg>
+
+            </div>
+            <div class="menu-item__text">
+              Courses
+            </div>
+          </button>
+        </li>
+        <li class="menu-item ic-app-header__menu-list-item ">
+          <button id="global_nav_groups_link" class="ic-app-header__menu-list-link">
+            <div class="menu-item-icon-container" aria-hidden="true">
+              <svg xmlns="http://www.w3.org/2000/svg" class="ic-icon-svg ic-icon-svg--groups" viewBox="0 0 200 135"><path d="M134.5 129.4c0-1.1 0-19.8-6.2-31.1-4.5-8.5-16.4-12.4-35-19.2-1.7-.6-3.4-1.1-5.1-1.7v-8.5c5.6-5.1 8.5-12.4 8.5-20.3V29.4C96.6 13 83.6 0 67.2 0S37.9 13 37.9 29.4v19.2c0 7.3 3.4 14.7 8.5 20.3v8.5c-1.7.6-3.4 1.1-5.1 1.7-18.6 6.2-30.5 10.7-35 19.2C0 109.6 0 128.8 0 129.4c0 3.4 2.3 5.6 5.6 5.6h123.7c3.5 0 5.7-2.3 5.2-5.6zm-123.2-5.7c.6-5.6 1.7-14.7 3.4-19.8C17 98.8 30 94.3 43.5 89.8c2.8-1.1 5.6-2.3 9-3.4 2.3-.6 4-2.8 4-5.1V66.7c0-1.7-.6-3.4-1.7-4.5-4-3.4-6.2-8.5-6.2-13.6V29.4c0-10.2 7.9-18.1 18.1-18.1s18.1 7.9 18.1 18.1v19.2c0 5.1-2.3 10.2-6.2 13.6-1.1 1.1-1.7 2.8-1.7 4.5v14.7c0 2.3 1.7 4.5 4 5.1 2.8 1.1 6.2 2.3 9 3.4 13.6 5.1 26.6 9.6 28.8 14.1 2.8 5.1 4 13.6 4.5 19.8H11.3zM196 79.1c-2.8-6.2-11.3-9.6-22.6-13.6l-1.7-.6v-3.4c4.5-4 6.8-9.6 6.8-15.8V35c0-12.4-9.6-22-22-22s-22 10.2-22 22v10.7c0 6.2 2.3 11.9 6.8 15.8V65l-1.7.6c-7.3 2.8-13 4.5-16.9 7.3-1.7 1.1-2.3 2.8-2.3 5.1.6 1.7 1.7 3.4 3.4 4.5 7.9 4 12.4 7.3 14.1 10.7 2.3 4.5 4 10.2 5.1 18.1.6 2.3 2.8 4.5 5.6 4.5h45.8c3.4 0 5.6-2.8 5.6-5.1 0-3.9 0-24.3-4-31.6zm-42.9 25.4c-1.1-6.8-2.8-12.4-5.1-16.9-1.7-4-5.1-6.8-9.6-10.2 1.7-1.1 3.4-1.7 5.1-2.3l5.6-2.3c1.7-.6 3.4-2.8 3.4-5.1v-9.6c0-1.7-.6-3.4-2.3-4.5-2.8-1.7-4.5-5.1-4.5-8.5V34.5c0-6.2 4.5-10.7 10.7-10.7s10.7 5.1 10.7 10.7v10.7c0 3.4-1.7 6.2-4.5 8.5-1.1 1.1-2.3 2.8-2.3 4.5v10.2c0 2.3 1.1 4.5 3.4 5.1l5.6 2.3c6.8 2.3 15.3 5.6 16.4 7.9 1.7 2.8 2.8 12.4 2.8 20.9h-35.4z"></path></svg>
+
+            </div>
+            <div class="menu-item__text">
+              Groups
+            </div>
+          </button>
+        </li>
+      <li class="menu-item ic-app-header__menu-list-item ">
+        <a id="global_nav_calendar_link" href="https://canvas.uoregon.edu/calendar" class="ic-app-header__menu-list-link">
+          <div class="menu-item-icon-container" aria-hidden="true">
+            <svg xmlns="http://www.w3.org/2000/svg" class="ic-icon-svg ic-icon-svg--calendar" version="1.1" x="0" y="0" viewBox="0 0 280 280" enable-background="new 0 0 280 280" xml:space="preserve"><path d="M197.07,213.38h16.31V197.07H197.07Zm-16.31,16.31V180.76h48.92v48.92Zm-48.92-16.31h16.31V197.07H131.85Zm-16.31,16.31V180.76h48.92v48.92ZM66.62,213.38H82.93V197.07H66.62ZM50.32,229.68V180.76H99.24v48.92Zm146.75-81.53h16.31V131.85H197.07Zm-16.31,16.31V115.54h48.92v48.92Zm-48.92-16.31h16.31V131.85H131.85Zm-16.31,16.31V115.54h48.92v48.92ZM66.62,148.15H82.93V131.85H66.62ZM50.32,164.46V115.54H99.24v48.92ZM34,262.29H246V82.93H34ZM246,66.62V42.16A8.17,8.17,0,0,0,237.84,34H213.38v8.15a8.15,8.15,0,1,1-16.31,0V34H82.93v8.15a8.15,8.15,0,0,1-16.31,0V34H42.16A8.17,8.17,0,0,0,34,42.16V66.62Zm-8.15-48.92a24.49,24.49,0,0,1,24.46,24.46V278.6H17.71V42.16A24.49,24.49,0,0,1,42.16,17.71H66.62V9.55a8.15,8.15,0,0,1,16.31,0v8.15H197.07V9.55a8.15,8.15,0,1,1,16.31,0v8.15Z"></path></svg>
+
+          </div>
+          <div class="menu-item__text">
+            Calendar
+          </div>
+        </a>
+      </li>
+      <li class="menu-item ic-app-header__menu-list-item ">
+        <a id="global_nav_conversations_link" href="https://canvas.uoregon.edu/conversations" class="ic-app-header__menu-list-link">
+          <div class="menu-item-icon-container">
+            <span aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" class="ic-icon-svg ic-icon-svg--inbox" version="1.1" x="0" y="0" viewBox="0 0 280 280" enable-background="new 0 0 280 280" xml:space="preserve"><path d="M91.72,120.75h96.56V104.65H91.72Zm0,48.28h80.47V152.94H91.72Zm0-96.56h80.47V56.37H91.72Zm160.94,34.88H228.52V10.78h-177v96.56H27.34A24.17,24.17,0,0,0,3.2,131.48V244.14a24.17,24.17,0,0,0,24.14,24.14H252.66a24.17,24.17,0,0,0,24.14-24.14V131.48A24.17,24.17,0,0,0,252.66,107.34Zm0,16.09a8.06,8.06,0,0,1,8,8v51.77l-32.19,19.31V123.44ZM67.58,203.91v-177H212.42v177ZM27.34,123.44H51.48v79.13L19.29,183.26V131.48A8.06,8.06,0,0,1,27.34,123.44ZM252.66,252.19H27.34a8.06,8.06,0,0,1-8-8V202l30,18H230.75l30-18v42.12A8.06,8.06,0,0,1,252.66,252.19Z"></path></svg>
+</span>
+            <span class="menu-item__badge"><span class="ergWt_bGBk">12 unread messages.</span><span aria-hidden="true">12</span></span>
+          </div>
+          <div class="menu-item__text">
+            Inbox
+          </div>
+        </a>
+      </li>
+        <li class="menu-item ic-app-header__menu-list-item">
+          <button id="global_nav_history_link" class="ic-app-header__menu-list-link">
+            <div class="menu-item-icon-container" aria-hidden="true">
+              <svg viewBox="0 0 1920 1920" class="ic-icon-svg menu-item__icon svg-icon-history" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <path d="M960 112.941c-467.125 0-847.059 379.934-847.059 847.059 0 467.125 379.934 847.059 847.059 847.059 467.125 0 847.059-379.934 847.059-847.059 0-467.125-379.934-847.059-847.059-847.059M960 1920C430.645 1920 0 1489.355 0 960S430.645 0 960 0s960 430.645 960 960-430.645 960-960 960m417.905-575.955L903.552 988.28V395.34h112.941v536.47l429.177 321.77-67.765 90.465z" stroke="none" stroke-width="1" fill-rule="evenodd"></path>
+</svg>
+            </div>
+            <div class="menu-item__text">
+              History
+            </div>
+          </button>
+        </li>
+        
+
+
+      <li class="ic-app-header__menu-list-item">
+        <a id="global_nav_help_link" role="button" class="ic-app-header__menu-list-link" data-track-category="help system" data-track-label="help button" href="http://help.instructure.com/">
+          <div class="menu-item-icon-container" role="presentation">
+              <svg xmlns="http://www.w3.org/2000/svg" class="ic-icon-svg menu-item__icon svg-icon-help" version="1.1" x="0" y="0" viewBox="0 0 200 200" enable-background="new 0 0 200 200" xml:space="preserve" fill="currentColor"><path d="M100,127.88A11.15,11.15,0,1,0,111.16,139,11.16,11.16,0,0,0,100,127.88Zm8.82-88.08a33.19,33.19,0,0,1,23.5,23.5,33.54,33.54,0,0,1-24,41.23,3.4,3.4,0,0,0-2.74,3.15v9.06H94.42v-9.06a14.57,14.57,0,0,1,11.13-14,22.43,22.43,0,0,0,13.66-10.27,22.73,22.73,0,0,0,2.31-17.37A21.92,21.92,0,0,0,106,50.59a22.67,22.67,0,0,0-19.68,3.88,22.18,22.18,0,0,0-8.65,17.64H66.54a33.25,33.25,0,0,1,13-26.47A33.72,33.72,0,0,1,108.82,39.8ZM100,5.2A94.8,94.8,0,1,0,194.8,100,94.91,94.91,0,0,0,100,5.2m0,178.45A83.65,83.65,0,1,1,183.65,100,83.73,83.73,0,0,1,100,183.65" transform="translate(-5.2 -5.2)"></path></svg>
+
+            <span class="menu-item__badge"></span>
+          </div>
+          <div class="menu-item__text">
+            Help
+          </div>
+</a>      </li>
+    </ul>
+  </div>
+  <div class="ic-app-header__secondary-navigation">
+    <ul class="ic-app-header__menu-list">
+      <li class="menu-item ic-app-header__menu-list-item">
+        <button id="primaryNavToggle" class="ic-app-header__menu-list-link ic-app-header__menu-list-link--nav-toggle" aria-label="Minimize global navigation" title="Minimize global navigation">
+          <div class="menu-item-icon-container" aria-hidden="true">
+            <svg xmlns="http://www.w3.org/2000/svg" class="ic-icon-svg ic-icon-svg--navtoggle" version="1.1" x="0" y="0" width="40" height="32" viewBox="0 0 40 32" xml:space="preserve">
+  <path d="M39.5,30.28V2.48H37.18v27.8Zm-4.93-13.9L22.17,4,20.53,5.61l9.61,9.61H.5v2.31H30.14l-9.61,9.61,1.64,1.64Z"></path>
+</svg>
+
+          </div>
+        </button>
+      </li>
+    </ul>
+  </div>
+  <div id="global_nav_tray_container"></div>
+  <div id="global_nav_tour"></div>
+</header>
+
+
+  <div id="instructure_ajax_error_box">
+    <div style="text-align: right; background-color: #fff;"><a href="https://canvas.uoregon.edu/courses/218245/assignments/1412661#" class="close_instructure_ajax_error_box_link">Close</a></div>
+    <iframe id="instructure_ajax_error_result" src="./Project 2_files/saved_resource.html" style="border: 0;" title="Error"></iframe>
+  </div>
+
+  <div id="wrapper" class="ic-Layout-wrapper">
+      <div class="ic-app-nav-toggle-and-crumbs no-print">
+          <button type="button" id="courseMenuToggle" class="Button Button--link ic-app-course-nav-toggle" aria-live="polite" aria-label="Hide Courses Navigation Menu">
+            <i class="icon-hamburger" aria-hidden="true"></i>
+          </button>
+
+        <div class="ic-app-crumbs">
+            <nav id="breadcrumbs" role="navigation" aria-label="breadcrumbs" style=""><ul><li class="home"><a href="https://canvas.uoregon.edu/"><span class="ellipsible"><i class="icon-home" title="My Dashboard">
+  <span class="screenreader-only">My Dashboard</span>
+</i>
+</span></a></li><li><a href="https://canvas.uoregon.edu/courses/218245"><span class="ellipsible">CIT 281</span></a></li><li><a href="https://canvas.uoregon.edu/courses/218245/assignments"><span class="ellipsible">Assignments</span></a></li><li><a href="https://canvas.uoregon.edu/courses/218245/assignments/1412661"><span class="ellipsible">Project 2</span></a></li></ul></nav>
+        </div>
+
+
+        <div class="right-of-crumbs">
+        </div>
+
+      </div>
+    <div id="main" class="ic-Layout-columns">
+        <div class="ic-Layout-watermark"></div>
+        <div id="left-side" class="ic-app-course-menu ic-sticky-on list-view" style="display: block">
+          <div id="sticky-container" class="ic-sticky-frame" style="">
+              <span id="section-tabs-header-subtitle" class="ellipsis">Spring 2023</span>
+            <nav role="navigation" aria-label="Courses Navigation Menu"><ul id="section-tabs"><li class="section"><a href="https://canvas.uoregon.edu/courses/218245" class="home" tabindex="0">Home</a></li><li class="section"><a href="https://canvas.uoregon.edu/courses/218245/announcements" class="announcements" tabindex="0">Announcements</a></li><li class="section"><a href="https://canvas.uoregon.edu/courses/218245/assignments/syllabus" class="syllabus" tabindex="0">Syllabus</a></li><li class="section"><a href="https://canvas.uoregon.edu/courses/218245/assignments" aria-current="page" class="assignments active" tabindex="0">Assignments</a></li><li class="section"><a href="https://canvas.uoregon.edu/courses/218245/wiki" class="pages" tabindex="0">Pages</a></li><li class="section"><a href="https://canvas.uoregon.edu/courses/218245/grades" class="grades" tabindex="0">Grades<b class="nav-badge">2</b></a></li><li class="section"><a href="https://canvas.uoregon.edu/courses/218245/discussion_topics" class="discussions" tabindex="0">Discussions</a></li><li class="section"><a href="https://canvas.uoregon.edu/courses/218245/users" class="people" tabindex="0">People</a></li><li class="section"><a href="https://canvas.uoregon.edu/courses/218245/files" class="files" tabindex="0">Files</a></li><li class="section"><a href="https://canvas.uoregon.edu/courses/218245/quizzes" class="quizzes" tabindex="0">Quizzes</a></li><li class="section"><a href="https://canvas.uoregon.edu/courses/218245/external_tools/165" class="context_external_tool_165" tabindex="0">Chat</a></li><li class="section"><a href="https://canvas.uoregon.edu/courses/218245/collaborations" class="collaborations" tabindex="0">Collaborations</a></li><li class="section"><a href="https://canvas.uoregon.edu/courses/218245/external_tools/796" class="context_external_tool_796" tabindex="0">Panopto Recordings</a></li><li class="section"><a href="https://canvas.uoregon.edu/courses/218245/external_tools/1449" class="context_external_tool_1449" tabindex="0">Zoom Meetings</a></li><li class="section"><a href="https://canvas.uoregon.edu/courses/218245/external_tools/5683" class="context_external_tool_5683" tabindex="0">UO Course Surveys</a></li><li class="section"><a href="https://canvas.uoregon.edu/courses/218245/external_tools/9309" class="context_external_tool_9309" tabindex="0">Library Research Help</a></li></ul></nav>
+          </div>
+        </div>
+      <div id="not_right_side" class="ic-app-main-content">
+        <div id="content-wrapper" class="ic-Layout-contentWrapper">
+          
+          <div id="content" class="ic-Layout-contentMain" role="main">
+            
+<style>
+  #right-side-wrapper {
+    height: 100%;
+  }
+</style>
+
+
+
+<div id="assignment_show" class="assignment content_underline_links">
+    <!--Student View-->
+    <div class="assignment-title">
+      <div class="title-content">
+        <h1 class="title">
+          Project 2
+        </h1>
+      </div>
+      <div class="assignment-buttons">
+        
+
+        <button type="button" class="Button Button--primary submit_assignment_link ">Start Assignment</button>
+      </div>
+    </div>
+    
+<ul class="student-assignment-overview">
+  <li>
+    <span class="title">Due</span>
+    <span class="value">
+          <span class="date_text">
+                <span class="display_date">Apr 22</span> by 
+                <span class="display_time">11:59pm</span>
+          </span><!--
+        --></span>
+  </li>
+    <li>
+      <span class="title">Points</span>
+      <span class="value">50</span>
+    </li>
+    <li>
+      <span class="title">Submitting</span>
+      <span class="value">a file upload</span>
+    </li>
+      <li>
+        <span class="title">File Types</span>
+        <span class="value">zip</span>
+      </li>
+  
+
+  <div class="clear"></div>
+</ul>
+
+  <div class="clear"></div>
+
+
+  <div class="clear"></div>
+
+
+
+  <div class="description user_content enhanced"><p style="color: #3b82c6; font-size: 1.17em; margin-top: 1em; margin-bottom: 0.5em; border-bottom: dotted 1px;">Instructions</p>
+<p>Please complete this project yourself. While you are encouraged to have high-level discussions with your fellow students, you must be able to complete the details of this project on your own.</p>
+<p><em><strong>Late Policy</strong>: All projects are due by 11:59 pm of the stated due date. Projects submitted after the due date/time are considered late and will not be graded.&nbsp; <span style="text-decoration: underline;">It is your responsibility to submit projects on time.</span></em></p>
+<p><strong>Learning Objectives</strong></p>
+<p>After completing this project, you will:</p>
+<ul>
+<li>Gain experience using git via your CLI and Visual Studio Code (VSCode) Source Control</li>
+<li>Gain experience writing and executing non-web server Node.js JavaScript code</li>
+<li>Practice refactoring JavaScript code</li>
+</ul>
+<p><strong>Overview</strong></p>
+<p>Project elements:</p>
+<ul>
+<li>Use the command line interface (CLI) of your operating system to create and work with a git repository (repo)</li>
+<li>Refactor the JavaScript program from the previous project to practice using git and practice refactoring</li>
+<li>Use git via VSCode
+<ul>
+<li>Create and use a .gitignore file</li>
+<li>Diff split screen</li>
+</ul>
+</li>
+</ul>
+<p style="color: #3b82c6; font-size: 1.17em; margin-top: 1em; margin-bottom: 0.5em; border-bottom: dotted 1px;">Requirements</p>
+<p>Complete each of the following requirements.</p>
+<p><strong><span style="color: #3598db;">Part 1.</span> Completed Lab 2</strong><br><span style="color: #000000;"><span style="background-color: #2dc26b; color: #ffffff;"><strong>&gt;&gt;</strong></span>: You should have completed Lab 2 and saved <strong>lab-02.zip</strong> in your <strong>cit281/p2</strong>&nbsp;folder.</span></p>
+<p><strong><span style="color: #3598db;">Part 2.</span> Refactor and git</strong><br><span style="color: #000000;">As part of Project 1 you created a file <strong>p1-random.js</strong>. </span></p>
+<p><span style="color: #000000;"><span style="background-color: #2dc26b; color: #ffffff;"><strong>&gt;&gt;</strong></span>: You will use the <a title="Project 1 Solution" href="https://canvas.uoregon.edu/courses/218245/pages/project-1-solution" data-api-endpoint="https://canvas.uoregon.edu/api/v1/courses/218245/pages/project-1-solution" data-api-returntype="Page">Canvas posted solution</a> for this file, but apply a few refactor changes to address the following goals:</span></p>
+<ul>
+<li><span style="color: #000000;">Isolate code into functions</span></li>
+<li><span style="color: #000000;">Eliminate global variables</span></li>
+<li><span style="color: #000000;">Make code self-documenting by variable and function name choices</span></li>
+</ul>
+<p><strong><span style="color: #000000;">Use the CLI of your operating system to accomplish the following tasks:</span></strong></p>
+<p><span style="color: #000000;"><span style="background-color: #2dc26b; color: #ffffff;"><strong>&gt;&gt;</strong></span>: Create a new sub-folder in your <strong>cit281/p2</strong> folder called <strong>refactor</strong>.</span></p>
+<p><span style="color: #000000;"><span style="background-color: #2dc26b; color: #ffffff;"><strong>&gt;&gt;</strong></span>: Change to the <strong>cit281/p2/refactor</strong> folder.</span></p>
+<p><span style="color: #000000;"><span style="background-color: #2dc26b; color: #ffffff;"><strong>&gt;&gt;</strong></span>: Initialize the <strong>cit281/p2/refactor</strong> folder as a git repository (repo).</span></p>
+<p><span style="color: #000000;"><span style="background-color: #2dc26b; color: #ffffff;"><strong>&gt;&gt;</strong></span>: Create a new file, <strong>p2-random.js</strong> in the <strong>cit281/p2/refactor</strong> folder, using the <a title="Project 1 Solution" href="https://canvas.uoregon.edu/courses/218245/pages/project-1-solution" data-api-endpoint="https://canvas.uoregon.edu/api/v1/courses/218245/pages/project-1-solution" data-api-returntype="Page">Canvas posted solution</a> for Project 1 as the initial source code of the file.</span></p>
+<p><span style="color: #000000;"><span style="background-color: #2dc26b; color: #ffffff;"><strong>&gt;&gt;</strong></span>: Update the <strong>p2-random.js</strong> file documentation section of the new file with the correct project number and your name.</span></p>
+<p><span style="color: #000000;"><span style="background-color: #2dc26b; color: #ffffff;"><strong>&gt;&gt;</strong></span>: Use VSCode to ensure the code runs with the expected output.</span></p>
+<p><span style="color: #000000;"><span style="background-color: #2dc26b; color: #ffffff;"><strong>&gt;&gt;</strong></span>: Add the <strong>p2-random.js</strong> to git.</span></p>
+<p><span style="color: #000000;"><span style="background-color: #2dc26b; color: #ffffff;"><strong>&gt;&gt;</strong></span>: Commit the <strong>p2-random.js</strong> to git with a documentation message, "<strong>First commit</strong>". You must include the documentation message.</span></p>
+<p><span style="color: #000000;"><span style="background-color: #2dc26b; color: #ffffff;"><strong>&gt;&gt;</strong></span>: Create a new function <em><strong>getRandomLetter()</strong></em> that will return a single, random, lowercase letter. Note the following about this function:</span></p>
+<ul>
+<li><span style="color: #000000;">This function will also include the <em><strong>alphabet</strong></em> constant.</span></li>
+<li><span style="color: #000000;">Include a single line comment above the function that documents the purpose/functionality of the function.</span></li>
+<li>Update the <em style="color: #000000; font-family: inherit; font-size: 1rem;"><strong>for</strong></em><span style="color: #000000; font-family: inherit; font-size: 1rem;"> loop to call </span><em style="color: #000000; font-family: inherit; font-size: 1rem;"><strong>getRandomLetter()</strong></em><span style="color: #000000; font-family: inherit; font-size: 1rem;">.</span></li>
+</ul>
+<p><span style="color: #000000;"><span style="background-color: #2dc26b; color: #ffffff;"><strong>&gt;&gt;</strong></span>: Use VSCode to ensure the code runs with the expected output.</span></p>
+<p><span style="color: #000000;"><span style="background-color: #2dc26b; color: #ffffff;"><strong>&gt;&gt;</strong></span>: Stage and commit the <strong>p2-random.js</strong> changes to git with a documentation message, "<strong>Added getRandomLetter()</strong>".</span></p>
+<p><span style="color: #000000;"><span style="background-color: #2dc26b; color: #ffffff;"><strong>&gt;&gt;</strong></span>: Create a new function <em><strong>getRandomString(minLength, maxLength)</strong></em> that will return the random length string. Note the following about this function:</span></p>
+<ul>
+<li><span style="color: #000000;">The <em><strong>maxLength</strong></em> parameter will be actual maximum string length, so adjust any <em><strong>getRandomInteger()</strong></em> parameters appropriately.</span></li>
+<li><span style="color: #000000;">The function will call <em><strong>getRandomLetter()</strong></em>.</span></li>
+<li><span style="color: #000000;">Use a value of <strong>10</strong> for the minimum string length, and <strong>20</strong> for the maximum string length.</span></li>
+<li><span style="color: #000000;">Update the <em><strong>console.log()</strong></em> to call <em><strong>getRandomString()</strong></em>.</span></li>
+<li><span style="color: #000000;">Include a single line comment above the function that documents the purpose/functionality of the function. </span></li>
+</ul>
+<p><span style="color: #000000;"><span style="background-color: #2dc26b; color: #ffffff;"><strong>&gt;&gt;</strong></span>: Use VSCode to ensure the code runs with the expected output.</span></p>
+<p><span style="color: #000000;"><span style="background-color: #2dc26b; color: #ffffff;"><strong>&gt;&gt;</strong></span>: Stage and commit the <strong>p2-random.js</strong> changes to git with a documentation message, "<strong>Added getRandomString()</strong>".</span></p>
+<p><span style="color: #000000;"><span style="background-color: #2dc26b; color: #ffffff;"><strong>&gt;&gt;</strong></span>: Add a final function to <strong>p2-random.js</strong> called <em><strong>getSortedString(string)</strong></em> that will return a string in ascending order (i.e., xpacd would return acdpx). Note the following about this function:</span></p>
+<ul>
+<li><span style="color: #000000;">The function body MUST be a single line of code. How? Consider array methods.</span></li>
+<li><span style="color: #000000;">Include a single line comment above the function that documents the purpose/functionality of the function.</span></li>
+</ul>
+<p><span style="color: #000000;"><span style="background-color: #2dc26b; color: #ffffff;"><strong>&gt;&gt;</strong></span>: Use VSCode to ensure the code runs with the expected output.</span></p>
+<p><span style="color: #000000;"><span style="background-color: #2dc26b; color: #ffffff;"><strong>&gt;&gt;</strong></span>: Stage and commit the <strong>p2-random.js</strong> changes to git with a documentation message, "<strong>Added getSortedString()</strong>".</span></p>
+<p><span style="color: #000000;"><span style="background-color: #2dc26b; color: #ffffff;"><strong>&gt;&gt;</strong></span>: Use the following command to list the files in the git repository. The output of the command will be saved to file <strong>p2-random-files.txt</strong>. The <em><strong>--stage</strong></em> option includes more details about the tracked files in the repo. </span></p>
+<p><em><span style="color: #000000;"><strong>Tip</strong>: You may want to use your operating system CLI command to display the file contents (<strong>cat</strong> or <strong>type</strong>) to make sure the redirection of the git output was saved in the text file.</span></em></p>
+<pre><span style="color: #000000;">git ls-files --stage &gt; p2-random-files.txt</span></pre>
+<p><span style="color: #000000;"><span style="background-color: #2dc26b; color: #ffffff;"><strong>&gt;&gt;</strong></span>: Use the following command to list a log of the repo changes. The output of the command will be saved to file <strong>p2-random-commits.txt</strong>. The <em><strong>--pretty=oneline</strong></em> option will produce a single line for each of the commits, showing the commit documentation message.</span></p>
+<pre><span style="color: #000000;">git log --pretty=oneline p2-random.js &gt; p2-random-commits.txt</span></pre>
+<p><span style="color: #000000;"><strong><span style="color: #3598db;">Part 3.</span> Function expressions and VSCode git</strong></span></p>
+<p><span style="color: #000000;">Rather than a normal function, JavaScript frequently utilizes function expressions. Part of a function expression is an anonymous function. In the following sample code, the <span style="background-color: #fbeeb8;">yellow portion</span> is the anonymous function. Assigning a function to a variable is a function expression.</span></p>
+<pre><span style="color: #000000;">const varName = <span style="background-color: #fbeeb8;">function() { }</span></span></pre>
+<p><span style="color: #000000;">You will be creating a new file, p2-expressions.js, in the cit281/p2/refactor folder, that replaces all of the function definitions with function expressions. Rather than use the CLI with git commands, this time we'll use VSCode to perform the git steps.&nbsp;</span></p>
+<p><span style="color: #000000;"><strong>Use VSCode to accomplish all of the following tasks, including git operators:</strong></span></p>
+<p><span style="color: #000000;"><span style="background-color: #2dc26b; color: #ffffff;"><strong>&gt;&gt;</strong></span>: Use VSCode <strong>Explorer</strong> tab to create a new file, <strong>p2-expressions.js</strong>, in the <strong>cit281/p2/refactor</strong> folder. Copy the content of <strong>p2-random.js</strong> into <strong>p2-expressions.js</strong>.</span></p>
+<p><span style="color: #000000;"><span style="background-color: #2dc26b; color: #ffffff;"><strong>&gt;&gt;</strong></span>: Use the VSCode <strong>Source Control</strong> tab to stage the new file, <strong>p2-expressions.js</strong>, for use with git by highlighting or selecting the <strong>p2-expressions.js</strong> file, and clicking on the Stage icon (the plus symbol) to the right of the file. See the images below.</span></p>
+<p><span style="color: #000000;"><img src="./Project 2_files/VSCode-git-01.png" alt="VSCode Source Control staging." width="400" height="182" data-api-endpoint="https://canvas.uoregon.edu/api/v1/courses/218245/files/15632594" data-api-returntype="File">&nbsp;&nbsp;</span></p>
+<p><span style="color: #000000;"><span style="background-color: #2dc26b; color: #ffffff;"><strong>&gt;&gt;</strong></span>: Once staged, the file will be moved into a new section called Staged Changes, indicating the file is ready to commit. Select the staged file, then select the Commit icon (the check mark icon) to commit the staged file. Use the documentation message, "Filed added" and press the Enter key to complete the commit process. See the images below.</span></p>
+<p><span style="color: #000000;"><img src="./Project 2_files/VSCode-git-02.png" alt="VSCode Source Control staged." width="398" height="207" data-api-endpoint="https://canvas.uoregon.edu/api/v1/courses/218245/files/15632600" data-api-returntype="File">&nbsp;&nbsp;</span></p>
+<p><span style="color: #000000;"><img src="./Project 2_files/VSCode-git-03.png" alt="VSCode Source Control commit." width="603" height="139" data-api-endpoint="https://canvas.uoregon.edu/api/v1/courses/218245/files/15632601" data-api-returntype="File">&nbsp;&nbsp;</span></p>
+<p><span style="color: #000000;"><span style="background-color: #2dc26b; color: #ffffff;"><strong>&gt;&gt;</strong></span>: Rewrite each function as a function expression using the pattern demonstrated above. Use the original function name as the function expression variable.</span></p>
+<p><span style="color: #000000;"><span style="background-color: #2dc26b; color: #ffffff;"><strong>&gt;&gt;</strong></span>: Use VSCode to ensure the code runs with the expected output.</span></p>
+<p><span style="color: #000000;"><span style="background-color: #2dc26b; color: #ffffff;"><strong>&gt;&gt;</strong></span>: Again use VSCode Source Control tab to stage and commit the change, using "<strong>Functions refactored into function expressions</strong>" as the documentation message.</span></p>
+<p><span style="color: #000000;"><strong><span style="color: #3598db;">Part 4.</span> Ignoring files and diff</strong></span></p>
+<p><span style="color: #000000;">In VSCode the two text files are listed. We do not want to track text files for this repo, so we will use a git <strong>.gitignore</strong> file.</span></p>
+<p><span style="color: #000000;"><span style="background-color: #2dc26b; color: #ffffff;"><strong>&gt;&gt;</strong></span>: Use VSCode <strong>Explorer</strong> to create a <strong>.gitignore</strong> file with the following contents</span></p>
+<pre><span style="color: #000000;">*.txt</span></pre>
+<p><span style="color: #000000;"><span style="background-color: #2dc26b; color: #ffffff;"><strong>&gt;&gt;</strong></span>: Switch to the VSCode <strong>Source Control</strong> tab and note that the previously displayed text files no longer appear, and now only the .gitignore file appears.</span></p>
+<p><span style="color: #000000;"><span style="background-color: #2dc26b; color: #ffffff;"><strong>&gt;&gt;</strong></span>: Select the <strong>.gitignore</strong> file in the <strong>Source Control</strong> tab, and note in the source window to the right a split pane appears, showing the differences between what is currently in git, and what will be added to git, when the <strong>.gitignore</strong> file is added.</span></p>
+<p><span style="color: #000000;"><span style="background-color: #2dc26b; color: #ffffff;"><strong>&gt;&gt;</strong></span>: Use VSCode <strong>Source Control</strong> to stage and commit the <strong>.gitignore</strong> file with a documentation message, "<strong>Added</strong>".</span></p>
+<p><span style="color: #000000;"><span style="background-color: #2dc26b; color: #ffffff;"><strong>&gt;&gt;</strong></span>: Modify the .gitignore file by adding the following line:</span></p>
+<pre><span style="color: #000000;">*.bak</span></pre>
+<p><span style="color: #000000;"><span style="background-color: #2dc26b; color: #ffffff;"><strong>&gt;&gt;</strong></span>: Switch to the Source Control tab, select the file, and again note the diff split screen. Screen capture both sides of the diff split screen and save the screen capture as <strong>p2-vscode-diff.png</strong>.</span></p>
+<p><span style="color: #000000;"><span style="background-color: #2dc26b; color: #ffffff;"><strong>&gt;&gt;</strong></span>: Use VSCode <strong>Source Control</strong> to stage and commit the <strong>.gitignore</strong> file with a documentation message, "<strong>Ignore .bak files</strong>".</span></p>
+<p><strong><span style="color: #3598db;">Project Deliverables</span><br></strong></p>
+<p>This project will include your Lab 2 deliverable <strong>lab-02.zip</strong>.</p>
+<p>Create a compressed folder called <strong>p2.zip</strong><span>&nbsp;</span>that contains the files from this project, including any lab deliverables. To create a compressed folder, select the files, then right-mouse click the files, and select either<span>&nbsp;</span><strong>Send to</strong>, then<span>&nbsp;</span><strong>Compressed (zipped) folder</strong><span>&nbsp;</span>on<span>&nbsp;</span><strong>Windows</strong>, or<span>&nbsp;</span><strong>Compress</strong><span>&nbsp;</span>on<span>&nbsp;</span><strong>Mac</strong>.</p>
+<p><span>The compressed file will contain the following files (point values in parentheses).</span></p>
+<p><strong>Note:&nbsp;Below are links to help you see the hidden files:</strong></p>
+<ul>
+<li><span>Mac: </span><a href="https://www.macworld.co.uk/how-to/show-hidden-files-mac-3520878/" target="_blank" class="external" rel="noreferrer noopener"><span>How to show hidden files on a Mac</span><span class="external_link_icon" style="margin-inline-start: 5px; display: inline-block; text-indent: initial; " role="presentation"><svg viewBox="0 0 1920 1920" version="1.1" xmlns="http://www.w3.org/2000/svg" style="width:1em; height:1em; vertical-align:middle; fill:currentColor">
+    <path d="M1226.66667,267 C1314.88,267 1386.66667,338.786667 1386.66667,427 L1386.66667,427 L1386.66667,853.666667 L1280,853.666667 L1280,693.666667 L106.666667,693.666667 L106.666667,1493.66667 C106.666667,1523 130.56,1547 160,1547 L160,1547 L1226.66667,1547 C1256.10667,1547 1280,1523 1280,1493.66667 L1280,1493.66667 L1280,1280.33333 L1386.66667,1280.33333 L1386.66667,1493.66667 C1386.66667,1581.88 1314.88,1653.66667 1226.66667,1653.66667 L1226.66667,1653.66667 L160,1653.66667 C71.7866667,1653.66667 0,1581.88 0,1493.66667 L0,1493.66667 L0,427 C0,338.786667 71.7866667,267 160,267 L160,267 Z M1584.37333,709.293333 L1904.37333,1029.29333 C1925.17333,1050.09333 1925.17333,1083.90667 1904.37333,1104.70667 L1904.37333,1104.70667 L1584.37333,1424.70667 L1508.96,1349.29333 L1737.86667,1120.38667 L906.613333,1120.38667 L906.613333,1013.72 L1737.86667,1013.72 L1508.96,784.706667 L1584.37333,709.293333 Z M1226.66667,373.666667 L160,373.666667 C130.56,373.666667 106.666667,397.666667 106.666667,427 L106.666667,427 L106.666667,587 L1280,587 L1280,427 C1280,397.666667 1256.10667,373.666667 1226.66667,373.666667 L1226.66667,373.666667 Z" stroke="none" stroke-width="1" fill-rule="evenodd"></path>
+</svg>
+<span class="screenreader-only">Links to an external site.</span></span></a></li>
+<li><span>Windows: </span><a href="https://support.microsoft.com/en-us/windows/view-hidden-files-and-folders-in-windows-97fbc472-c603-9d90-91d0-1166d1d9f4b5" target="_blank" class="external" rel="noreferrer noopener"><span>View hidden files and folders in Windows</span><span class="external_link_icon" style="margin-inline-start: 5px; display: inline-block; text-indent: initial; " role="presentation"><svg viewBox="0 0 1920 1920" version="1.1" xmlns="http://www.w3.org/2000/svg" style="width:1em; height:1em; vertical-align:middle; fill:currentColor">
+    <path d="M1226.66667,267 C1314.88,267 1386.66667,338.786667 1386.66667,427 L1386.66667,427 L1386.66667,853.666667 L1280,853.666667 L1280,693.666667 L106.666667,693.666667 L106.666667,1493.66667 C106.666667,1523 130.56,1547 160,1547 L160,1547 L1226.66667,1547 C1256.10667,1547 1280,1523 1280,1493.66667 L1280,1493.66667 L1280,1280.33333 L1386.66667,1280.33333 L1386.66667,1493.66667 C1386.66667,1581.88 1314.88,1653.66667 1226.66667,1653.66667 L1226.66667,1653.66667 L160,1653.66667 C71.7866667,1653.66667 0,1581.88 0,1493.66667 L0,1493.66667 L0,427 C0,338.786667 71.7866667,267 160,267 L160,267 Z M1584.37333,709.293333 L1904.37333,1029.29333 C1925.17333,1050.09333 1925.17333,1083.90667 1904.37333,1104.70667 L1904.37333,1104.70667 L1584.37333,1424.70667 L1508.96,1349.29333 L1737.86667,1120.38667 L906.613333,1120.38667 L906.613333,1013.72 L1737.86667,1013.72 L1508.96,784.706667 L1584.37333,709.293333 Z M1226.66667,373.666667 L160,373.666667 C130.56,373.666667 106.666667,397.666667 106.666667,427 L106.666667,427 L106.666667,587 L1280,587 L1280,427 C1280,397.666667 1256.10667,373.666667 1226.66667,373.666667 L1226.66667,373.666667 Z" stroke="none" stroke-width="1" fill-rule="evenodd"></path>
+</svg>
+<span class="screenreader-only">Links to an external site.</span></span></a></li>
+</ul>
+<ol>
+<li>(5) lab-02.zip</li>
+<li>(15) refactor/p2-random.js</li>
+<li>(5) refactor/p2-random-files.txt</li>
+<li>(5) refactor/p2-random-commits.txt</li>
+<li>(10) refactor/p2-expressions.js</li>
+<li>(5) refactor/.gitignore</li>
+<li>(5) refactor/<span style="color: #000000;">p2-vscode-diff.png</span></li>
+</ol>
+<p>Once uploaded, revisit the Project 2 page in Canvas and confirm the file was uploaded.</p>
+<p><strong>Remember, you are responsible to submit your assignments before the deadline. Late submissions will not be accepted.</strong></p></div>
+
+
+  <div style="display: none;">
+    <span class="timestamp">1682233199</span>
+    <span class="due_date_string">04/22/2023</span>
+    <span class="due_time_string">11:59pm</span>
+  </div>
+</div>
+
+
+  
+<div style="display: none;" id="submit_assignment" data-context_code="course_218245" data-asset_string="assignment_1412661">
+  <div class="content" id="submit_assignment_tabs">
+    <ul>
+        <li><a href="https://canvas.uoregon.edu/courses/218245/assignments/1412661#submit_online_upload_form" class="submit_online_upload_option">File Upload</a></li>
+    </ul>
+      
+<form id="submit_online_upload_form" class="submit_assignment_form" enctype="multipart/form-data" action="https://canvas.uoregon.edu/courses/218245/assignments/1412661/submissions" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="✓" autocomplete="off"><input type="hidden" name="authenticity_token" value="2iMWPYZUIX3FTVyYuzWHMgcK90JNBUSq2kGPPbem0S2obmdIxScWBY5ia8/WV8ljfWa+OilECeyTd9Zf5v+afg==" autocomplete="off">
+    <input value="online_upload" autocomplete="off" type="hidden" name="submission[submission_type]" id="submission_submission_type">
+    <input value="" id="submission_attachment_ids" autocomplete="off" type="hidden" name="submission[attachment_ids]">
+    <input id="eula_agreement_timestamp" autocomplete="off" type="hidden" name="submission[eula_agreement_timestamp]">
+    <table class="formtable" style="width: 100%;">
+      <tbody><tr>
+        <td colspan="2">
+          Upload a file, or choose a file you've already uploaded.
+          
+        </td>
+      </tr><tr>
+        <td colspan="2">
+          <span style="visibility: hidden"><label id="attachmentLabel" for="attachment_uploaded_data">File:</label></span>
+          <div class="submission_attachment" style="margin-bottom: 1em; display: block;">
+              <input type="file" name="attachments[-1][uploaded_data]" class="input-file">
+            <a href="https://canvas.uoregon.edu/courses/218245/assignments/1412661#" class="remove_attachment_link no-hover" style="display: none;"><i class="icon-end" aria-hidden="true"></i><span class="screenreader-only">remove empty attachment</span></a>
+              <div class="bad_ext_msg error_message" style="display: none">
+                This file type is not allowed. Accepted file types are: zip
+              </div>
+          </div><button class="Button Button--link add_another_file_link">
+            <i class="icon-add" aria-hidden="true"></i>
+            Add Another File
+          </button>
+          <div id="submission_attachment_blank" class="submission_attachment" style="display: none; margin-bottom: 1em;">
+              <input type="file" name="attachments[-1][uploaded_data]" class="input-file">
+            <a href="https://canvas.uoregon.edu/courses/218245/assignments/1412661#" class="remove_attachment_link no-hover" style="display: none;"><i class="icon-end" aria-hidden="true"></i><span class="screenreader-only">remove empty attachment</span></a>
+              <div class="bad_ext_msg error_message" style="display: none">
+                This file type is not allowed. Accepted file types are: zip
+              </div>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td></td>
+        <td style="font-size: 0.8em;">
+          <button class="Button Button--link toggle_uploaded_files_link">Click here to find a file you've already uploaded</button><br>
+          <div id="uploaded_files" style="display: none;">
+        </div></td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <div class="textarea-emoji-container">
+            <div class="textarea-container">
+              <textarea class="submission_comment_textarea" placeholder="Comments..." title="Additional comments" name="submission[comment]" id="submission_comment"></textarea>
+              <span class="emoji-picker-container" style="display: none;"></span>
+            </div>
+            <div class="emoji-quick-picker-container" style="display: none;"></div>
+          </div>
+        </td>
+      </tr>
+      
+
+      
+
+      <tr>
+        <td colspan="2" class="button-container">
+          <button type="button" class="cancel_button btn">Cancel</button>
+          <button type="submit" class="btn btn-primary" id="submit_file_button">Submit Assignment</button>
+          <span id="progress_indicator"></span>
+        </td>
+      </tr>
+    </tbody></table>
+</form>
+
+
+
+
+    <style>
+    #google_docs_tree li.folder {
+      cursor: pointer;
+    }
+    #google_docs_tree li.file {
+      cursor: pointer;
+      -moz-border-radius: 3px;
+      width: 80%;
+      padding-right: 20px;
+    }
+    #google_docs_tree li.file:hover {
+      background-color: #eee;
+    }
+    ul.instTree li span.active {
+      background: none;
+    }
+    #google_docs_tree li.file.leaf.active {
+      background-color: #ddd;
+    }
+    #google_docs_tree li.file .filename {
+      float: left;
+      max-width: 98%;
+    }
+    #google_docs_tree li.file .popout {
+      float: right;
+    }
+    </style>
+
+
+  </div>
+</div>
+
+
+
+
+
+  <div id="rubrics" class="mathjax_ignore" style="margin-bottom: 10px;">
+      
+<div class="rubric_container rubric  for_grading" id="rubric_70454" style="">
+  <div class="screenreader-only"><h2>Rubric</h2></div>
+  <div class="rubric_title">
+    <div style="display: none;" class="links displaying pull-right">
+      <a href="https://canvas.uoregon.edu/courses/218245/rubrics/70454?rubric_association_id=137541" class="copy_edit edit_rubric_link no-print no-hover" style="display: none;" title="Edit Rubric" aria-label="Edit Rubric" role="button"><i class="icon-edit standalone-icon"></i></a>
+      <a href="https://canvas.uoregon.edu/search/rubrics?q=" class="find_rubric_link no-print no-hover" style="display: none;" title="Find Another Rubric" aria-label="Find Another Rubric" role="button"><i class="icon-search standalone-icon"></i></a>
+        <a href="https://canvas.uoregon.edu/courses/218245/rubric_associations/137541" class="delete_rubric_link no-print no-hover" style="display: none;" title="Delete Rubric" aria-label="Delete Rubric" role="button"><i class="icon-trash standalone-icon"></i></a>
+      <div style="display: none;">
+        <div class="use_for_grading">true</div>
+        <div class="free_form_criterion_comments">&nbsp;</div>
+        <div class="hide_score_total">&nbsp;</div>
+        <div class="hide_outcome_results">&nbsp;</div>
+        <div class="hide_points">&nbsp;</div>
+        <div class="rubric_association_id">137541</div>
+          <div class="user_id">&nbsp;</div>
+        <div class="assessment_type"></div>
+        <a href="https://canvas.uoregon.edu/courses/218245/rubric_associations/137541/assessments/%7B%7B%20assessment_id%20%7D%7D" rel="nofollow" class="edit_assessment_link">&nbsp;</a>
+        <a href="https://canvas.uoregon.edu/courses/218245/rubrics/%7B%7B%20rubric_id%20%7D%7D" class="edit_rubric_url">&nbsp;</a>
+          <a href="https://canvas.uoregon.edu/courses/218245/rubric_associations/%7B%7B%20association_id%20%7D%7D" class="delete_rubric_url">&nbsp;</a>
+      </div>
+    </div>
+    <div style="float: right; font-size: 0.8em; display: none;" class="links displaying locked">
+      <span style="">Can't change a rubric once you've started using it.</span>
+        <a href="https://canvas.uoregon.edu/courses/218245/rubric_associations/%7B%7B%20association_id%20%7D%7D" class="delete_rubric_url" style="display: none;">&nbsp;</a>
+    </div>
+
+    <div class="editing" style="float: right;">
+      <a href="https://canvas.uoregon.edu/search/rubrics?q=" class="find_rubric_link icon-search" style="display: none;" title="Find Existing Rubric">Find a Rubric</a>
+    </div>
+    <div class="editing" style="text-align: left">
+      <label for="rubric-title">Title:</label>
+      <input id="rubric-title" type="text" class="no-margin-bottom" name="title" value="Project 2 Rubric" style="width: 200px;" maxlength="255" aria-label="Title:">
+      <a href="https://canvas.uoregon.edu/search/rubrics?q=" style="display: none;"><img alt="" src="./Project 2_files/find-6164443e2a.png"> Find Rubric</a>
+    </div>
+    <div class="displaying">
+      <span class="title" tabindex="-1">Project 2 Rubric</span>
+    </div>
+    <div class="has-assessments-warning" style="display: none;">
+      You've already rated students with this rubric. Any major changes could affect their assessment results.
+    </div>
+  </div>
+<table class="rubric_table">
+<caption>
+  <div class="screenreader-only">
+    <span class="title">Project 2 Rubric</span>
+  </div>
+</caption>
+<thead>
+  <tr>
+    <th scope="col">Criteria</th>
+    <th scope="col">Ratings</th>
+    <th scope="col" class="toggle_for_hide_points ">
+      Pts
+    </th>
+  </tr>
+</thead>
+<tbody>
+      
+<tr id="criterion__3129" class="criterion   " style="">
+  <td class="criterion_description hover-container pad-box-micro">
+    <div class="container">
+      <div class="links editing">
+          <a href="https://canvas.uoregon.edu/courses/218245/assignments/1412661#" class="edit_criterion_link"><i class="icon-edit standalone-icon"></i><span class="screenreader-only">Edit criterion description</span></a>
+        <a href="https://canvas.uoregon.edu/courses/218245/assignments/1412661#" class="delete_criterion_link"><i class="icon-trash standalone-icon"></i><span class="screenreader-only">Delete criterion row</span></a>
+      </div>
+      <div class="description_content">
+        <span class="outcome_sr_content" aria-hidden="true">
+          <i class="learning_outcome_flag icon-outcomes" aria-hidden="true"></i>
+          <span class="screenreader-only">This criterion is linked to a Learning Outcome</span>
+        </span>
+        <span class="description description_title">Lab-02.zip</span>
+        <span class="learning_outcome_id" style="display: none;"></span>
+        <span class="criterion_id" style="display: none;">_3129</span>
+          <div class="long_description small_description"></div>
+        <div class="hide_when_learning_outcome ">
+          <div class="criterion_use_range_div editing toggle_for_hide_points ">
+            <label>Range
+              <input type="checkbox" class="criterion_use_range"></label>
+          </div>
+        </div>
+        <div class="threshold toggle_for_hide_points ">
+          threshold:
+          <span class="mastery_points"></span> pts
+        </div>
+      </div>
+
+    </div>
+  </td>
+  <td style="padding: 0;">
+      <table class="ratings" style=""><tbody><tr>
+          <td class="rating edge_rating
+                
+                ">
+            <div class="container" style="height: 59px;">
+              <div class="rating-main">
+                  <div class="editing links">
+                    <a href="https://canvas.uoregon.edu/courses/218245/assignments/1412661#" class="edit_rating_link"><i class="icon-edit standalone-icon"></i><span class="screenreader-only">Edit rating</span></a>
+                    <a href="https://canvas.uoregon.edu/courses/218245/assignments/1412661#" class="delete_rating_link"><i class="icon-trash standalone-icon"></i><span class="screenreader-only">Delete rating</span></a>
+                  </div>
+                  <div class="clear"></div>
+                <span class="nobr toggle_for_hide_points ">
+                  <span class="points">5</span>
+                  <span class="range_rating" style="display: none;">to &gt;<span class="min_points">0.0</span></span> pts
+                </span>
+                <div class="description rating_description_value">Mostly Correct, Made Good Faith Effort</div>
+                <div class="rating_long_description small_description"></div>
+                <span class="rating_id" style="display: none;">blank</span>
+              </div>
+                <div class="editing links add_rating_link">
+                  <a href="https://canvas.uoregon.edu/courses/218245/assignments/1412661#" class="add_rating_link_after" aria-label="Add rating"><i class="icon-add icon-Solid"></i></a>
+                </div>
+            </div>
+          </td>
+          <td class="rating edge_rating
+                infinitesimal
+                ">
+            <div class="container" style="height: 59px;">
+              <div class="rating-main">
+                  <div class="editing links">
+                    <a href="https://canvas.uoregon.edu/courses/218245/assignments/1412661#" class="edit_rating_link"><i class="icon-edit standalone-icon"></i><span class="screenreader-only">Edit rating</span></a>
+                    <a href="https://canvas.uoregon.edu/courses/218245/assignments/1412661#" class="delete_rating_link"><i class="icon-trash standalone-icon"></i><span class="screenreader-only">Delete rating</span></a>
+                  </div>
+                  <div class="clear"></div>
+                <span class="nobr toggle_for_hide_points ">
+                  <span class="points">0</span>
+                  <span class="range_rating" style="display: none;">to &gt;<span class="min_points">0</span></span> pts
+                </span>
+                <div class="description rating_description_value">No Marks</div>
+                <div class="rating_long_description small_description"></div>
+                <span class="rating_id" style="display: none;">blank_2</span>
+              </div>
+            </div>
+          </td>
+      </tr></tbody></table>
+      <div style="display: none; font-size: 0.8em; margin: 5px;" class="custom_ratings">
+        This area will be used by the assessor to leave comments related to this criterion.
+      </div>
+  </td>
+  <td class="nobr points_form toggle_for_hide_points ">
+    <div class="editing" style="white-space: normal">
+      <span style="white-space: nowrap; font-size: 0.8em">
+          
+            <input type="text" aria-label="Points" value="5" class="criterion_points span1 no-margin-bottom">
+           pts
+      </span><br>
+    </div>
+    <div class="displaying">
+      <span style="white-space: nowrap;">
+        <span class="criterion_rating_points_holder" style="display: none;">
+          <span class="criterion_rating_points">&nbsp;</span> /
+        </span>
+        <span class="display_criterion_points">5</span> pts<br>
+      </span>
+    </div>
+    <div class="ignoring">
+      <span> -- </span>
+    </div>
+    <div class="criterion_comments">
+        <a href="https://canvas.uoregon.edu/courses/218245/assignments/1412661#" class="no-hover criterion_comments_link" title="Additional Comments">
+          <img alt="Additional Comments" src="./Project 2_files/rubric_comment-ddae8546ab.png">
+        </a>
+        <div class="custom_rating" style="display: none;"></div>
+    </div>
+  </td>
+</tr>
+
+      
+<tr id="criterion__9450" class="criterion   " style="">
+  <td class="criterion_description hover-container pad-box-micro">
+    <div class="container">
+      <div class="links editing">
+          <a href="https://canvas.uoregon.edu/courses/218245/assignments/1412661#" class="edit_criterion_link"><i class="icon-edit standalone-icon"></i><span class="screenreader-only">Edit criterion description</span></a>
+        <a href="https://canvas.uoregon.edu/courses/218245/assignments/1412661#" class="delete_criterion_link"><i class="icon-trash standalone-icon"></i><span class="screenreader-only">Delete criterion row</span></a>
+      </div>
+      <div class="description_content">
+        <span class="outcome_sr_content" aria-hidden="true">
+          <i class="learning_outcome_flag icon-outcomes" aria-hidden="true"></i>
+          <span class="screenreader-only">This criterion is linked to a Learning Outcome</span>
+        </span>
+        <span class="description description_title">refactor/.gitignore</span>
+        <span class="learning_outcome_id" style="display: none;"></span>
+        <span class="criterion_id" style="display: none;">_9450</span>
+          <div class="long_description small_description"></div>
+        <div class="hide_when_learning_outcome ">
+          <div class="criterion_use_range_div editing toggle_for_hide_points ">
+            <label>Range
+              <input type="checkbox" class="criterion_use_range"></label>
+          </div>
+        </div>
+        <div class="threshold toggle_for_hide_points ">
+          threshold:
+          <span class="mastery_points"></span> pts
+        </div>
+      </div>
+
+    </div>
+  </td>
+  <td style="padding: 0;">
+      <table class="ratings" style=""><tbody><tr>
+          <td class="rating edge_rating
+                
+                ">
+            <div class="container" style="height: 59px;">
+              <div class="rating-main">
+                  <div class="editing links">
+                    <a href="https://canvas.uoregon.edu/courses/218245/assignments/1412661#" class="edit_rating_link"><i class="icon-edit standalone-icon"></i><span class="screenreader-only">Edit rating</span></a>
+                    <a href="https://canvas.uoregon.edu/courses/218245/assignments/1412661#" class="delete_rating_link"><i class="icon-trash standalone-icon"></i><span class="screenreader-only">Delete rating</span></a>
+                  </div>
+                  <div class="clear"></div>
+                <span class="nobr toggle_for_hide_points ">
+                  <span class="points">5</span>
+                  <span class="range_rating" style="display: none;">to &gt;<span class="min_points">3.0</span></span> pts
+                </span>
+                <div class="description rating_description_value">Full Marks</div>
+                <div class="rating_long_description small_description"></div>
+                <span class="rating_id" style="display: none;">_5354</span>
+              </div>
+                <div class="editing links add_rating_link">
+                  <a href="https://canvas.uoregon.edu/courses/218245/assignments/1412661#" class="add_rating_link_after" aria-label="Add rating"><i class="icon-add icon-Solid"></i></a>
+                </div>
+            </div>
+          </td>
+          <td class="rating 
+                
+                ">
+            <div class="container" style="height: 59px;">
+              <div class="rating-main">
+                  <div class="editing links">
+                    <a href="https://canvas.uoregon.edu/courses/218245/assignments/1412661#" class="edit_rating_link"><i class="icon-edit standalone-icon"></i><span class="screenreader-only">Edit rating</span></a>
+                    <a href="https://canvas.uoregon.edu/courses/218245/assignments/1412661#" class="delete_rating_link"><i class="icon-trash standalone-icon"></i><span class="screenreader-only">Delete rating</span></a>
+                  </div>
+                  <div class="clear"></div>
+                <span class="nobr toggle_for_hide_points ">
+                  <span class="points">3</span>
+                  <span class="range_rating" style="display: none;">to &gt;<span class="min_points">0.0</span></span> pts
+                </span>
+                <div class="description rating_description_value">Made Good Faith Effort</div>
+                <div class="rating_long_description small_description"></div>
+                <span class="rating_id" style="display: none;">_5592</span>
+              </div>
+                <div class="editing links add_rating_link">
+                  <a href="https://canvas.uoregon.edu/courses/218245/assignments/1412661#" class="add_rating_link_after" aria-label="Add rating"><i class="icon-add icon-Solid"></i></a>
+                </div>
+            </div>
+          </td>
+          <td class="rating edge_rating
+                infinitesimal
+                ">
+            <div class="container" style="height: 59px;">
+              <div class="rating-main">
+                  <div class="editing links">
+                    <a href="https://canvas.uoregon.edu/courses/218245/assignments/1412661#" class="edit_rating_link"><i class="icon-edit standalone-icon"></i><span class="screenreader-only">Edit rating</span></a>
+                    <a href="https://canvas.uoregon.edu/courses/218245/assignments/1412661#" class="delete_rating_link"><i class="icon-trash standalone-icon"></i><span class="screenreader-only">Delete rating</span></a>
+                  </div>
+                  <div class="clear"></div>
+                <span class="nobr toggle_for_hide_points ">
+                  <span class="points">0</span>
+                  <span class="range_rating" style="display: none;">to &gt;<span class="min_points">0</span></span> pts
+                </span>
+                <div class="description rating_description_value">No Marks</div>
+                <div class="rating_long_description small_description"></div>
+                <span class="rating_id" style="display: none;">_7055</span>
+              </div>
+            </div>
+          </td>
+      </tr></tbody></table>
+      <div style="display: none; font-size: 0.8em; margin: 5px;" class="custom_ratings">
+        This area will be used by the assessor to leave comments related to this criterion.
+      </div>
+  </td>
+  <td class="nobr points_form toggle_for_hide_points ">
+    <div class="editing" style="white-space: normal">
+      <span style="white-space: nowrap; font-size: 0.8em">
+          
+            <input type="text" aria-label="Points" value="5" class="criterion_points span1 no-margin-bottom">
+           pts
+      </span><br>
+    </div>
+    <div class="displaying">
+      <span style="white-space: nowrap;">
+        <span class="criterion_rating_points_holder" style="display: none;">
+          <span class="criterion_rating_points">&nbsp;</span> /
+        </span>
+        <span class="display_criterion_points">5</span> pts<br>
+      </span>
+    </div>
+    <div class="ignoring">
+      <span> -- </span>
+    </div>
+    <div class="criterion_comments">
+        <a href="https://canvas.uoregon.edu/courses/218245/assignments/1412661#" class="no-hover criterion_comments_link" title="Additional Comments">
+          <img alt="Additional Comments" src="./Project 2_files/rubric_comment-ddae8546ab.png">
+        </a>
+        <div class="custom_rating" style="display: none;"></div>
+    </div>
+  </td>
+</tr>
+
+      
+<tr id="criterion__4241" class="criterion   " style="">
+  <td class="criterion_description hover-container pad-box-micro">
+    <div class="container">
+      <div class="links editing">
+          <a href="https://canvas.uoregon.edu/courses/218245/assignments/1412661#" class="edit_criterion_link"><i class="icon-edit standalone-icon"></i><span class="screenreader-only">Edit criterion description</span></a>
+        <a href="https://canvas.uoregon.edu/courses/218245/assignments/1412661#" class="delete_criterion_link"><i class="icon-trash standalone-icon"></i><span class="screenreader-only">Delete criterion row</span></a>
+      </div>
+      <div class="description_content">
+        <span class="outcome_sr_content" aria-hidden="true">
+          <i class="learning_outcome_flag icon-outcomes" aria-hidden="true"></i>
+          <span class="screenreader-only">This criterion is linked to a Learning Outcome</span>
+        </span>
+        <span class="description description_title">refactor/p2-expressions.js</span>
+        <span class="learning_outcome_id" style="display: none;"></span>
+        <span class="criterion_id" style="display: none;">_4241</span>
+          <div class="long_description small_description"></div>
+        <div class="hide_when_learning_outcome ">
+          <div class="criterion_use_range_div editing toggle_for_hide_points ">
+            <label>Range
+              <input type="checkbox" class="criterion_use_range"></label>
+          </div>
+        </div>
+        <div class="threshold toggle_for_hide_points ">
+          threshold:
+          <span class="mastery_points"></span> pts
+        </div>
+      </div>
+
+    </div>
+  </td>
+  <td style="padding: 0;">
+      <table class="ratings" style=""><tbody><tr>
+          <td class="rating edge_rating
+                
+                ">
+            <div class="container" style="height: 124px;">
+              <div class="rating-main">
+                  <div class="editing links">
+                    <a href="https://canvas.uoregon.edu/courses/218245/assignments/1412661#" class="edit_rating_link"><i class="icon-edit standalone-icon"></i><span class="screenreader-only">Edit rating</span></a>
+                    <a href="https://canvas.uoregon.edu/courses/218245/assignments/1412661#" class="delete_rating_link"><i class="icon-trash standalone-icon"></i><span class="screenreader-only">Delete rating</span></a>
+                  </div>
+                  <div class="clear"></div>
+                <span class="nobr toggle_for_hide_points ">
+                  <span class="points">10</span>
+                  <span class="range_rating" style="display: none;">to &gt;<span class="min_points">5.0</span></span> pts
+                </span>
+                <div class="description rating_description_value">Full Marks</div>
+                <div class="rating_long_description small_description"></div>
+                <span class="rating_id" style="display: none;">_4900</span>
+              </div>
+                <div class="editing links add_rating_link">
+                  <a href="https://canvas.uoregon.edu/courses/218245/assignments/1412661#" class="add_rating_link_after" aria-label="Add rating"><i class="icon-add icon-Solid"></i></a>
+                </div>
+            </div>
+          </td>
+          <td class="rating 
+                
+                ">
+            <div class="container" style="height: 124px;">
+              <div class="rating-main">
+                  <div class="editing links">
+                    <a href="https://canvas.uoregon.edu/courses/218245/assignments/1412661#" class="edit_rating_link"><i class="icon-edit standalone-icon"></i><span class="screenreader-only">Edit rating</span></a>
+                    <a href="https://canvas.uoregon.edu/courses/218245/assignments/1412661#" class="delete_rating_link"><i class="icon-trash standalone-icon"></i><span class="screenreader-only">Delete rating</span></a>
+                  </div>
+                  <div class="clear"></div>
+                <span class="nobr toggle_for_hide_points ">
+                  <span class="points">5</span>
+                  <span class="range_rating" style="display: none;">to &gt;<span class="min_points">0.0</span></span> pts
+                </span>
+                <div class="description rating_description_value">Copied File + Made Good Faith Effort</div>
+                <div class="rating_long_description small_description">Made good faith effort, but issues in converting at least one function expression.</div>
+                <span class="rating_id" style="display: none;">_127</span>
+              </div>
+                <div class="editing links add_rating_link">
+                  <a href="https://canvas.uoregon.edu/courses/218245/assignments/1412661#" class="add_rating_link_after" aria-label="Add rating"><i class="icon-add icon-Solid"></i></a>
+                </div>
+            </div>
+          </td>
+          <td class="rating edge_rating
+                infinitesimal
+                ">
+            <div class="container" style="height: 124px;">
+              <div class="rating-main">
+                  <div class="editing links">
+                    <a href="https://canvas.uoregon.edu/courses/218245/assignments/1412661#" class="edit_rating_link"><i class="icon-edit standalone-icon"></i><span class="screenreader-only">Edit rating</span></a>
+                    <a href="https://canvas.uoregon.edu/courses/218245/assignments/1412661#" class="delete_rating_link"><i class="icon-trash standalone-icon"></i><span class="screenreader-only">Delete rating</span></a>
+                  </div>
+                  <div class="clear"></div>
+                <span class="nobr toggle_for_hide_points ">
+                  <span class="points">0</span>
+                  <span class="range_rating" style="display: none;">to &gt;<span class="min_points">0</span></span> pts
+                </span>
+                <div class="description rating_description_value">No Marks</div>
+                <div class="rating_long_description small_description"></div>
+                <span class="rating_id" style="display: none;">_6818</span>
+              </div>
+            </div>
+          </td>
+      </tr></tbody></table>
+      <div style="display: none; font-size: 0.8em; margin: 5px;" class="custom_ratings">
+        This area will be used by the assessor to leave comments related to this criterion.
+      </div>
+  </td>
+  <td class="nobr points_form toggle_for_hide_points ">
+    <div class="editing" style="white-space: normal">
+      <span style="white-space: nowrap; font-size: 0.8em">
+          
+            <input type="text" aria-label="Points" value="10" class="criterion_points span1 no-margin-bottom">
+           pts
+      </span><br>
+    </div>
+    <div class="displaying">
+      <span style="white-space: nowrap;">
+        <span class="criterion_rating_points_holder" style="display: none;">
+          <span class="criterion_rating_points">&nbsp;</span> /
+        </span>
+        <span class="display_criterion_points">10</span> pts<br>
+      </span>
+    </div>
+    <div class="ignoring">
+      <span> -- </span>
+    </div>
+    <div class="criterion_comments">
+        <a href="https://canvas.uoregon.edu/courses/218245/assignments/1412661#" class="no-hover criterion_comments_link" title="Additional Comments">
+          <img alt="Additional Comments" src="./Project 2_files/rubric_comment-ddae8546ab.png">
+        </a>
+        <div class="custom_rating" style="display: none;"></div>
+    </div>
+  </td>
+</tr>
+
+      
+<tr id="criterion__789" class="criterion   " style="">
+  <td class="criterion_description hover-container pad-box-micro">
+    <div class="container">
+      <div class="links editing">
+          <a href="https://canvas.uoregon.edu/courses/218245/assignments/1412661#" class="edit_criterion_link"><i class="icon-edit standalone-icon"></i><span class="screenreader-only">Edit criterion description</span></a>
+        <a href="https://canvas.uoregon.edu/courses/218245/assignments/1412661#" class="delete_criterion_link"><i class="icon-trash standalone-icon"></i><span class="screenreader-only">Delete criterion row</span></a>
+      </div>
+      <div class="description_content">
+        <span class="outcome_sr_content" aria-hidden="true">
+          <i class="learning_outcome_flag icon-outcomes" aria-hidden="true"></i>
+          <span class="screenreader-only">This criterion is linked to a Learning Outcome</span>
+        </span>
+        <span class="description description_title">refactor/p2-random-commits.txt</span>
+        <span class="learning_outcome_id" style="display: none;"></span>
+        <span class="criterion_id" style="display: none;">_789</span>
+          <div class="long_description small_description"></div>
+        <div class="hide_when_learning_outcome ">
+          <div class="criterion_use_range_div editing toggle_for_hide_points ">
+            <label>Range
+              <input type="checkbox" class="criterion_use_range"></label>
+          </div>
+        </div>
+        <div class="threshold toggle_for_hide_points ">
+          threshold:
+          <span class="mastery_points"></span> pts
+        </div>
+      </div>
+
+    </div>
+  </td>
+  <td style="padding: 0;">
+      <table class="ratings" style=""><tbody><tr>
+          <td class="rating edge_rating
+                
+                ">
+            <div class="container" style="height: 69px;">
+              <div class="rating-main">
+                  <div class="editing links">
+                    <a href="https://canvas.uoregon.edu/courses/218245/assignments/1412661#" class="edit_rating_link"><i class="icon-edit standalone-icon"></i><span class="screenreader-only">Edit rating</span></a>
+                    <a href="https://canvas.uoregon.edu/courses/218245/assignments/1412661#" class="delete_rating_link"><i class="icon-trash standalone-icon"></i><span class="screenreader-only">Delete rating</span></a>
+                  </div>
+                  <div class="clear"></div>
+                <span class="nobr toggle_for_hide_points ">
+                  <span class="points">5</span>
+                  <span class="range_rating" style="display: none;">to &gt;<span class="min_points">3.0</span></span> pts
+                </span>
+                <div class="description rating_description_value">Full Marks</div>
+                <div class="rating_long_description small_description"></div>
+                <span class="rating_id" style="display: none;">_5409</span>
+              </div>
+                <div class="editing links add_rating_link">
+                  <a href="https://canvas.uoregon.edu/courses/218245/assignments/1412661#" class="add_rating_link_after" aria-label="Add rating"><i class="icon-add icon-Solid"></i></a>
+                </div>
+            </div>
+          </td>
+          <td class="rating 
+                
+                ">
+            <div class="container" style="height: 69px;">
+              <div class="rating-main">
+                  <div class="editing links">
+                    <a href="https://canvas.uoregon.edu/courses/218245/assignments/1412661#" class="edit_rating_link"><i class="icon-edit standalone-icon"></i><span class="screenreader-only">Edit rating</span></a>
+                    <a href="https://canvas.uoregon.edu/courses/218245/assignments/1412661#" class="delete_rating_link"><i class="icon-trash standalone-icon"></i><span class="screenreader-only">Delete rating</span></a>
+                  </div>
+                  <div class="clear"></div>
+                <span class="nobr toggle_for_hide_points ">
+                  <span class="points">3</span>
+                  <span class="range_rating" style="display: none;">to &gt;<span class="min_points">0.0</span></span> pts
+                </span>
+                <div class="description rating_description_value">Made Good Faith Effort</div>
+                <div class="rating_long_description small_description"></div>
+                <span class="rating_id" style="display: none;">_4960</span>
+              </div>
+                <div class="editing links add_rating_link">
+                  <a href="https://canvas.uoregon.edu/courses/218245/assignments/1412661#" class="add_rating_link_after" aria-label="Add rating"><i class="icon-add icon-Solid"></i></a>
+                </div>
+            </div>
+          </td>
+          <td class="rating edge_rating
+                infinitesimal
+                ">
+            <div class="container" style="height: 69px;">
+              <div class="rating-main">
+                  <div class="editing links">
+                    <a href="https://canvas.uoregon.edu/courses/218245/assignments/1412661#" class="edit_rating_link"><i class="icon-edit standalone-icon"></i><span class="screenreader-only">Edit rating</span></a>
+                    <a href="https://canvas.uoregon.edu/courses/218245/assignments/1412661#" class="delete_rating_link"><i class="icon-trash standalone-icon"></i><span class="screenreader-only">Delete rating</span></a>
+                  </div>
+                  <div class="clear"></div>
+                <span class="nobr toggle_for_hide_points ">
+                  <span class="points">0</span>
+                  <span class="range_rating" style="display: none;">to &gt;<span class="min_points">0</span></span> pts
+                </span>
+                <div class="description rating_description_value">No Marks</div>
+                <div class="rating_long_description small_description"></div>
+                <span class="rating_id" style="display: none;">_5560</span>
+              </div>
+            </div>
+          </td>
+      </tr></tbody></table>
+      <div style="display: none; font-size: 0.8em; margin: 5px;" class="custom_ratings">
+        This area will be used by the assessor to leave comments related to this criterion.
+      </div>
+  </td>
+  <td class="nobr points_form toggle_for_hide_points ">
+    <div class="editing" style="white-space: normal">
+      <span style="white-space: nowrap; font-size: 0.8em">
+          
+            <input type="text" aria-label="Points" value="5" class="criterion_points span1 no-margin-bottom">
+           pts
+      </span><br>
+    </div>
+    <div class="displaying">
+      <span style="white-space: nowrap;">
+        <span class="criterion_rating_points_holder" style="display: none;">
+          <span class="criterion_rating_points">&nbsp;</span> /
+        </span>
+        <span class="display_criterion_points">5</span> pts<br>
+      </span>
+    </div>
+    <div class="ignoring">
+      <span> -- </span>
+    </div>
+    <div class="criterion_comments">
+        <a href="https://canvas.uoregon.edu/courses/218245/assignments/1412661#" class="no-hover criterion_comments_link" title="Additional Comments">
+          <img alt="Additional Comments" src="./Project 2_files/rubric_comment-ddae8546ab.png">
+        </a>
+        <div class="custom_rating" style="display: none;"></div>
+    </div>
+  </td>
+</tr>
+
+      
+<tr id="criterion__3153" class="criterion   " style="">
+  <td class="criterion_description hover-container pad-box-micro">
+    <div class="container">
+      <div class="links editing">
+          <a href="https://canvas.uoregon.edu/courses/218245/assignments/1412661#" class="edit_criterion_link"><i class="icon-edit standalone-icon"></i><span class="screenreader-only">Edit criterion description</span></a>
+        <a href="https://canvas.uoregon.edu/courses/218245/assignments/1412661#" class="delete_criterion_link"><i class="icon-trash standalone-icon"></i><span class="screenreader-only">Delete criterion row</span></a>
+      </div>
+      <div class="description_content">
+        <span class="outcome_sr_content" aria-hidden="true">
+          <i class="learning_outcome_flag icon-outcomes" aria-hidden="true"></i>
+          <span class="screenreader-only">This criterion is linked to a Learning Outcome</span>
+        </span>
+        <span class="description description_title">refactor/p2-random-files.txt</span>
+        <span class="learning_outcome_id" style="display: none;"></span>
+        <span class="criterion_id" style="display: none;">_3153</span>
+          <div class="long_description small_description"></div>
+        <div class="hide_when_learning_outcome ">
+          <div class="criterion_use_range_div editing toggle_for_hide_points ">
+            <label>Range
+              <input type="checkbox" class="criterion_use_range"></label>
+          </div>
+        </div>
+        <div class="threshold toggle_for_hide_points ">
+          threshold:
+          <span class="mastery_points"></span> pts
+        </div>
+      </div>
+
+    </div>
+  </td>
+  <td style="padding: 0;">
+      <table class="ratings" style=""><tbody><tr>
+          <td class="rating edge_rating
+                
+                ">
+            <div class="container" style="height: 59px;">
+              <div class="rating-main">
+                  <div class="editing links">
+                    <a href="https://canvas.uoregon.edu/courses/218245/assignments/1412661#" class="edit_rating_link"><i class="icon-edit standalone-icon"></i><span class="screenreader-only">Edit rating</span></a>
+                    <a href="https://canvas.uoregon.edu/courses/218245/assignments/1412661#" class="delete_rating_link"><i class="icon-trash standalone-icon"></i><span class="screenreader-only">Delete rating</span></a>
+                  </div>
+                  <div class="clear"></div>
+                <span class="nobr toggle_for_hide_points ">
+                  <span class="points">5</span>
+                  <span class="range_rating" style="display: none;">to &gt;<span class="min_points">3.0</span></span> pts
+                </span>
+                <div class="description rating_description_value">Full Marks</div>
+                <div class="rating_long_description small_description"></div>
+                <span class="rating_id" style="display: none;">_3301</span>
+              </div>
+                <div class="editing links add_rating_link">
+                  <a href="https://canvas.uoregon.edu/courses/218245/assignments/1412661#" class="add_rating_link_after" aria-label="Add rating"><i class="icon-add icon-Solid"></i></a>
+                </div>
+            </div>
+          </td>
+          <td class="rating 
+                
+                ">
+            <div class="container" style="height: 59px;">
+              <div class="rating-main">
+                  <div class="editing links">
+                    <a href="https://canvas.uoregon.edu/courses/218245/assignments/1412661#" class="edit_rating_link"><i class="icon-edit standalone-icon"></i><span class="screenreader-only">Edit rating</span></a>
+                    <a href="https://canvas.uoregon.edu/courses/218245/assignments/1412661#" class="delete_rating_link"><i class="icon-trash standalone-icon"></i><span class="screenreader-only">Delete rating</span></a>
+                  </div>
+                  <div class="clear"></div>
+                <span class="nobr toggle_for_hide_points ">
+                  <span class="points">3</span>
+                  <span class="range_rating" style="display: none;">to &gt;<span class="min_points">0.0</span></span> pts
+                </span>
+                <div class="description rating_description_value">Made Good Faith Effort</div>
+                <div class="rating_long_description small_description"></div>
+                <span class="rating_id" style="display: none;">41332_7406</span>
+              </div>
+                <div class="editing links add_rating_link">
+                  <a href="https://canvas.uoregon.edu/courses/218245/assignments/1412661#" class="add_rating_link_after" aria-label="Add rating"><i class="icon-add icon-Solid"></i></a>
+                </div>
+            </div>
+          </td>
+          <td class="rating edge_rating
+                infinitesimal
+                ">
+            <div class="container" style="height: 59px;">
+              <div class="rating-main">
+                  <div class="editing links">
+                    <a href="https://canvas.uoregon.edu/courses/218245/assignments/1412661#" class="edit_rating_link"><i class="icon-edit standalone-icon"></i><span class="screenreader-only">Edit rating</span></a>
+                    <a href="https://canvas.uoregon.edu/courses/218245/assignments/1412661#" class="delete_rating_link"><i class="icon-trash standalone-icon"></i><span class="screenreader-only">Delete rating</span></a>
+                  </div>
+                  <div class="clear"></div>
+                <span class="nobr toggle_for_hide_points ">
+                  <span class="points">0</span>
+                  <span class="range_rating" style="display: none;">to &gt;<span class="min_points">0</span></span> pts
+                </span>
+                <div class="description rating_description_value">No Marks</div>
+                <div class="rating_long_description small_description"></div>
+                <span class="rating_id" style="display: none;">_3100</span>
+              </div>
+            </div>
+          </td>
+      </tr></tbody></table>
+      <div style="display: none; font-size: 0.8em; margin: 5px;" class="custom_ratings">
+        This area will be used by the assessor to leave comments related to this criterion.
+      </div>
+  </td>
+  <td class="nobr points_form toggle_for_hide_points ">
+    <div class="editing" style="white-space: normal">
+      <span style="white-space: nowrap; font-size: 0.8em">
+          
+            <input type="text" aria-label="Points" value="5" class="criterion_points span1 no-margin-bottom">
+           pts
+      </span><br>
+    </div>
+    <div class="displaying">
+      <span style="white-space: nowrap;">
+        <span class="criterion_rating_points_holder" style="display: none;">
+          <span class="criterion_rating_points">&nbsp;</span> /
+        </span>
+        <span class="display_criterion_points">5</span> pts<br>
+      </span>
+    </div>
+    <div class="ignoring">
+      <span> -- </span>
+    </div>
+    <div class="criterion_comments">
+        <a href="https://canvas.uoregon.edu/courses/218245/assignments/1412661#" class="no-hover criterion_comments_link" title="Additional Comments">
+          <img alt="Additional Comments" src="./Project 2_files/rubric_comment-ddae8546ab.png">
+        </a>
+        <div class="custom_rating" style="display: none;"></div>
+    </div>
+  </td>
+</tr>
+
+      
+<tr id="criterion__2649" class="criterion   " style="">
+  <td class="criterion_description hover-container pad-box-micro">
+    <div class="container">
+      <div class="links editing">
+          <a href="https://canvas.uoregon.edu/courses/218245/assignments/1412661#" class="edit_criterion_link"><i class="icon-edit standalone-icon"></i><span class="screenreader-only">Edit criterion description</span></a>
+        <a href="https://canvas.uoregon.edu/courses/218245/assignments/1412661#" class="delete_criterion_link"><i class="icon-trash standalone-icon"></i><span class="screenreader-only">Delete criterion row</span></a>
+      </div>
+      <div class="description_content">
+        <span class="outcome_sr_content" aria-hidden="true">
+          <i class="learning_outcome_flag icon-outcomes" aria-hidden="true"></i>
+          <span class="screenreader-only">This criterion is linked to a Learning Outcome</span>
+        </span>
+        <span class="description description_title">refactor/p2-random.js</span>
+        <span class="learning_outcome_id" style="display: none;"></span>
+        <span class="criterion_id" style="display: none;">_2649</span>
+          <div class="long_description small_description"></div>
+        <div class="hide_when_learning_outcome ">
+          <div class="criterion_use_range_div editing toggle_for_hide_points ">
+            <label>Range
+              <input type="checkbox" class="criterion_use_range"></label>
+          </div>
+        </div>
+        <div class="threshold toggle_for_hide_points ">
+          threshold:
+          <span class="mastery_points"></span> pts
+        </div>
+      </div>
+
+    </div>
+  </td>
+  <td style="padding: 0;">
+      <table class="ratings" style=""><tbody><tr>
+          <td class="rating edge_rating
+                
+                ">
+            <div class="container" style="height: 246px;">
+              <div class="rating-main">
+                  <div class="editing links">
+                    <a href="https://canvas.uoregon.edu/courses/218245/assignments/1412661#" class="edit_rating_link"><i class="icon-edit standalone-icon"></i><span class="screenreader-only">Edit rating</span></a>
+                    <a href="https://canvas.uoregon.edu/courses/218245/assignments/1412661#" class="delete_rating_link"><i class="icon-trash standalone-icon"></i><span class="screenreader-only">Delete rating</span></a>
+                  </div>
+                  <div class="clear"></div>
+                <span class="nobr toggle_for_hide_points ">
+                  <span class="points">15</span>
+                  <span class="range_rating" style="display: none;">to &gt;<span class="min_points">10.0</span></span> pts
+                </span>
+                <div class="description rating_description_value">Full Marks</div>
+                <div class="rating_long_description small_description"></div>
+                <span class="rating_id" style="display: none;">_3927</span>
+              </div>
+                <div class="editing links add_rating_link">
+                  <a href="https://canvas.uoregon.edu/courses/218245/assignments/1412661#" class="add_rating_link_after" aria-label="Add rating"><i class="icon-add icon-Solid"></i></a>
+                </div>
+            </div>
+          </td>
+          <td class="rating 
+                
+                ">
+            <div class="container" style="height: 246px;">
+              <div class="rating-main">
+                  <div class="editing links">
+                    <a href="https://canvas.uoregon.edu/courses/218245/assignments/1412661#" class="edit_rating_link"><i class="icon-edit standalone-icon"></i><span class="screenreader-only">Edit rating</span></a>
+                    <a href="https://canvas.uoregon.edu/courses/218245/assignments/1412661#" class="delete_rating_link"><i class="icon-trash standalone-icon"></i><span class="screenreader-only">Delete rating</span></a>
+                  </div>
+                  <div class="clear"></div>
+                <span class="nobr toggle_for_hide_points ">
+                  <span class="points">10</span>
+                  <span class="range_rating" style="display: none;">to &gt;<span class="min_points">5.0</span></span> pts
+                </span>
+                <div class="description rating_description_value">Some errors in refactoring</div>
+                <div class="rating_long_description small_description">Good faith effort but significant issues with at least one of the following:
+getRandomLetter()
+getRandomString()
+getSortedString()</div>
+                <span class="rating_id" style="display: none;">_4976</span>
+              </div>
+                <div class="editing links add_rating_link">
+                  <a href="https://canvas.uoregon.edu/courses/218245/assignments/1412661#" class="add_rating_link_after" aria-label="Add rating"><i class="icon-add icon-Solid"></i></a>
+                </div>
+            </div>
+          </td>
+          <td class="rating 
+                
+                ">
+            <div class="container" style="height: 246px;">
+              <div class="rating-main">
+                  <div class="editing links">
+                    <a href="https://canvas.uoregon.edu/courses/218245/assignments/1412661#" class="edit_rating_link"><i class="icon-edit standalone-icon"></i><span class="screenreader-only">Edit rating</span></a>
+                    <a href="https://canvas.uoregon.edu/courses/218245/assignments/1412661#" class="delete_rating_link"><i class="icon-trash standalone-icon"></i><span class="screenreader-only">Delete rating</span></a>
+                  </div>
+                  <div class="clear"></div>
+                <span class="nobr toggle_for_hide_points ">
+                  <span class="points">5</span>
+                  <span class="range_rating" style="display: none;">to &gt;<span class="min_points">0.0</span></span> pts
+                </span>
+                <div class="description rating_description_value">Significant errors in refactoring</div>
+                <div class="rating_long_description small_description">Good faith effort, but significant issues with at least two of the following:
+getRandomLetter()
+getRandomString()
+getSortedString()</div>
+                <span class="rating_id" style="display: none;">_2408</span>
+              </div>
+                <div class="editing links add_rating_link">
+                  <a href="https://canvas.uoregon.edu/courses/218245/assignments/1412661#" class="add_rating_link_after" aria-label="Add rating"><i class="icon-add icon-Solid"></i></a>
+                </div>
+            </div>
+          </td>
+          <td class="rating edge_rating
+                infinitesimal
+                ">
+            <div class="container" style="height: 246px;">
+              <div class="rating-main">
+                  <div class="editing links">
+                    <a href="https://canvas.uoregon.edu/courses/218245/assignments/1412661#" class="edit_rating_link"><i class="icon-edit standalone-icon"></i><span class="screenreader-only">Edit rating</span></a>
+                    <a href="https://canvas.uoregon.edu/courses/218245/assignments/1412661#" class="delete_rating_link"><i class="icon-trash standalone-icon"></i><span class="screenreader-only">Delete rating</span></a>
+                  </div>
+                  <div class="clear"></div>
+                <span class="nobr toggle_for_hide_points ">
+                  <span class="points">0</span>
+                  <span class="range_rating" style="display: none;">to &gt;<span class="min_points">0</span></span> pts
+                </span>
+                <div class="description rating_description_value">No Marks</div>
+                <div class="rating_long_description small_description"></div>
+                <span class="rating_id" style="display: none;">_6054</span>
+              </div>
+            </div>
+          </td>
+      </tr></tbody></table>
+      <div style="display: none; font-size: 0.8em; margin: 5px;" class="custom_ratings">
+        This area will be used by the assessor to leave comments related to this criterion.
+      </div>
+  </td>
+  <td class="nobr points_form toggle_for_hide_points ">
+    <div class="editing" style="white-space: normal">
+      <span style="white-space: nowrap; font-size: 0.8em">
+          
+            <input type="text" aria-label="Points" value="15" class="criterion_points span1 no-margin-bottom">
+           pts
+      </span><br>
+    </div>
+    <div class="displaying">
+      <span style="white-space: nowrap;">
+        <span class="criterion_rating_points_holder" style="display: none;">
+          <span class="criterion_rating_points">&nbsp;</span> /
+        </span>
+        <span class="display_criterion_points">15</span> pts<br>
+      </span>
+    </div>
+    <div class="ignoring">
+      <span> -- </span>
+    </div>
+    <div class="criterion_comments">
+        <a href="https://canvas.uoregon.edu/courses/218245/assignments/1412661#" class="no-hover criterion_comments_link" title="Additional Comments">
+          <img alt="Additional Comments" src="./Project 2_files/rubric_comment-ddae8546ab.png">
+        </a>
+        <div class="custom_rating" style="display: none;"></div>
+    </div>
+  </td>
+</tr>
+
+      
+<tr id="criterion__4229" class="criterion   " style="">
+  <td class="criterion_description hover-container pad-box-micro">
+    <div class="container">
+      <div class="links editing">
+          <a href="https://canvas.uoregon.edu/courses/218245/assignments/1412661#" class="edit_criterion_link"><i class="icon-edit standalone-icon"></i><span class="screenreader-only">Edit criterion description</span></a>
+        <a href="https://canvas.uoregon.edu/courses/218245/assignments/1412661#" class="delete_criterion_link"><i class="icon-trash standalone-icon"></i><span class="screenreader-only">Delete criterion row</span></a>
+      </div>
+      <div class="description_content">
+        <span class="outcome_sr_content" aria-hidden="true">
+          <i class="learning_outcome_flag icon-outcomes" aria-hidden="true"></i>
+          <span class="screenreader-only">This criterion is linked to a Learning Outcome</span>
+        </span>
+        <span class="description description_title">refactor/p2-vscode-diff.png</span>
+        <span class="learning_outcome_id" style="display: none;"></span>
+        <span class="criterion_id" style="display: none;">_4229</span>
+          <div class="long_description small_description"></div>
+        <div class="hide_when_learning_outcome ">
+          <div class="criterion_use_range_div editing toggle_for_hide_points ">
+            <label>Range
+              <input type="checkbox" class="criterion_use_range"></label>
+          </div>
+        </div>
+        <div class="threshold toggle_for_hide_points ">
+          threshold:
+          <span class="mastery_points"></span> pts
+        </div>
+      </div>
+
+    </div>
+  </td>
+  <td style="padding: 0;">
+      <table class="ratings" style=""><tbody><tr>
+          <td class="rating edge_rating
+                
+                ">
+            <div class="container" style="height: 59px;">
+              <div class="rating-main">
+                  <div class="editing links">
+                    <a href="https://canvas.uoregon.edu/courses/218245/assignments/1412661#" class="edit_rating_link"><i class="icon-edit standalone-icon"></i><span class="screenreader-only">Edit rating</span></a>
+                    <a href="https://canvas.uoregon.edu/courses/218245/assignments/1412661#" class="delete_rating_link"><i class="icon-trash standalone-icon"></i><span class="screenreader-only">Delete rating</span></a>
+                  </div>
+                  <div class="clear"></div>
+                <span class="nobr toggle_for_hide_points ">
+                  <span class="points">5</span>
+                  <span class="range_rating" style="display: none;">to &gt;<span class="min_points">3.0</span></span> pts
+                </span>
+                <div class="description rating_description_value">Full Marks</div>
+                <div class="rating_long_description small_description"></div>
+                <span class="rating_id" style="display: none;">_5368</span>
+              </div>
+                <div class="editing links add_rating_link">
+                  <a href="https://canvas.uoregon.edu/courses/218245/assignments/1412661#" class="add_rating_link_after" aria-label="Add rating"><i class="icon-add icon-Solid"></i></a>
+                </div>
+            </div>
+          </td>
+          <td class="rating 
+                
+                ">
+            <div class="container" style="height: 59px;">
+              <div class="rating-main">
+                  <div class="editing links">
+                    <a href="https://canvas.uoregon.edu/courses/218245/assignments/1412661#" class="edit_rating_link"><i class="icon-edit standalone-icon"></i><span class="screenreader-only">Edit rating</span></a>
+                    <a href="https://canvas.uoregon.edu/courses/218245/assignments/1412661#" class="delete_rating_link"><i class="icon-trash standalone-icon"></i><span class="screenreader-only">Delete rating</span></a>
+                  </div>
+                  <div class="clear"></div>
+                <span class="nobr toggle_for_hide_points ">
+                  <span class="points">3</span>
+                  <span class="range_rating" style="display: none;">to &gt;<span class="min_points">0.0</span></span> pts
+                </span>
+                <div class="description rating_description_value">Made Good Faith Effort</div>
+                <div class="rating_long_description small_description"></div>
+                <span class="rating_id" style="display: none;">41332_7706</span>
+              </div>
+                <div class="editing links add_rating_link">
+                  <a href="https://canvas.uoregon.edu/courses/218245/assignments/1412661#" class="add_rating_link_after" aria-label="Add rating"><i class="icon-add icon-Solid"></i></a>
+                </div>
+            </div>
+          </td>
+          <td class="rating edge_rating
+                infinitesimal
+                ">
+            <div class="container" style="height: 59px;">
+              <div class="rating-main">
+                  <div class="editing links">
+                    <a href="https://canvas.uoregon.edu/courses/218245/assignments/1412661#" class="edit_rating_link"><i class="icon-edit standalone-icon"></i><span class="screenreader-only">Edit rating</span></a>
+                    <a href="https://canvas.uoregon.edu/courses/218245/assignments/1412661#" class="delete_rating_link"><i class="icon-trash standalone-icon"></i><span class="screenreader-only">Delete rating</span></a>
+                  </div>
+                  <div class="clear"></div>
+                <span class="nobr toggle_for_hide_points ">
+                  <span class="points">0</span>
+                  <span class="range_rating" style="display: none;">to &gt;<span class="min_points">0</span></span> pts
+                </span>
+                <div class="description rating_description_value">No Marks</div>
+                <div class="rating_long_description small_description"></div>
+                <span class="rating_id" style="display: none;">_705</span>
+              </div>
+            </div>
+          </td>
+      </tr></tbody></table>
+      <div style="display: none; font-size: 0.8em; margin: 5px;" class="custom_ratings">
+        This area will be used by the assessor to leave comments related to this criterion.
+      </div>
+  </td>
+  <td class="nobr points_form toggle_for_hide_points ">
+    <div class="editing" style="white-space: normal">
+      <span style="white-space: nowrap; font-size: 0.8em">
+          
+            <input type="text" aria-label="Points" value="5" class="criterion_points span1 no-margin-bottom">
+           pts
+      </span><br>
+    </div>
+    <div class="displaying">
+      <span style="white-space: nowrap;">
+        <span class="criterion_rating_points_holder" style="display: none;">
+          <span class="criterion_rating_points">&nbsp;</span> /
+        </span>
+        <span class="display_criterion_points">5</span> pts<br>
+      </span>
+    </div>
+    <div class="ignoring">
+      <span> -- </span>
+    </div>
+    <div class="criterion_comments">
+        <a href="https://canvas.uoregon.edu/courses/218245/assignments/1412661#" class="no-hover criterion_comments_link" title="Additional Comments">
+          <img alt="Additional Comments" src="./Project 2_files/rubric_comment-ddae8546ab.png">
+        </a>
+        <div class="custom_rating" style="display: none;"></div>
+    </div>
+  </td>
+</tr>
+
+  
+<tr id="criterion_blank" class="criterion blank  " style="display: none;">
+  <td class="criterion_description hover-container pad-box-micro">
+    <div class="container">
+      <div class="links editing">
+          <a href="https://canvas.uoregon.edu/courses/218245/assignments/1412661#" class="edit_criterion_link"><i class="icon-edit standalone-icon"></i><span class="screenreader-only">Edit criterion description</span></a>
+        <a href="https://canvas.uoregon.edu/courses/218245/assignments/1412661#" class="delete_criterion_link"><i class="icon-trash standalone-icon"></i><span class="screenreader-only">Delete criterion row</span></a>
+      </div>
+      <div class="description_content">
+        <span class="outcome_sr_content" aria-hidden="true">
+          <i class="learning_outcome_flag icon-outcomes" aria-hidden="true"></i>
+          <span class="screenreader-only">This criterion is linked to a Learning Outcome</span>
+        </span>
+        <span class="description description_title">Description of criterion</span>
+        <span class="learning_outcome_id" style="display: none;"></span>
+        <span class="criterion_id" style="display: none;"></span>
+          <div class="long_description small_description"></div>
+        <div class="hide_when_learning_outcome ">
+          <div class="criterion_use_range_div editing toggle_for_hide_points ">
+            <label>Range
+              <input type="checkbox" class="criterion_use_range"></label>
+          </div>
+        </div>
+        <div class="threshold toggle_for_hide_points ">
+          threshold:
+          <span class="mastery_points">5</span> pts
+        </div>
+      </div>
+
+    </div>
+  </td>
+  <td style="padding: 0;">
+      <table class="ratings" style=""><tbody><tr>
+          <td class="rating edge_rating
+                
+                ">
+            <div class="container">
+              <div class="rating-main">
+                  <div class="editing links">
+                    <a href="https://canvas.uoregon.edu/courses/218245/assignments/1412661#" class="edit_rating_link"><i class="icon-edit standalone-icon"></i><span class="screenreader-only">Edit rating</span></a>
+                    <a href="https://canvas.uoregon.edu/courses/218245/assignments/1412661#" class="delete_rating_link"><i class="icon-trash standalone-icon"></i><span class="screenreader-only">Delete rating</span></a>
+                  </div>
+                  <div class="clear"></div>
+                <span class="nobr toggle_for_hide_points ">
+                  <span class="points">5</span>
+                  <span class="range_rating" style="display: none;">to &gt;<span class="min_points">0</span></span> pts
+                </span>
+                <div class="description rating_description_value">Full Marks</div>
+                <div class="rating_long_description small_description"></div>
+                <span class="rating_id" style="display: none;">blank</span>
+              </div>
+                <div class="editing links add_rating_link">
+                  <a href="https://canvas.uoregon.edu/courses/218245/assignments/1412661#" class="add_rating_link_after" aria-label="Add rating"><i class="icon-add icon-Solid"></i></a>
+                </div>
+            </div>
+          </td>
+          <td class="rating edge_rating
+                infinitesimal
+                ">
+            <div class="container">
+              <div class="rating-main">
+                  <div class="editing links">
+                    <a href="https://canvas.uoregon.edu/courses/218245/assignments/1412661#" class="edit_rating_link"><i class="icon-edit standalone-icon"></i><span class="screenreader-only">Edit rating</span></a>
+                    <a href="https://canvas.uoregon.edu/courses/218245/assignments/1412661#" class="delete_rating_link"><i class="icon-trash standalone-icon"></i><span class="screenreader-only">Delete rating</span></a>
+                  </div>
+                  <div class="clear"></div>
+                <span class="nobr toggle_for_hide_points ">
+                  <span class="points">0</span>
+                  <span class="range_rating" style="display: none;">to &gt;<span class="min_points">0</span></span> pts
+                </span>
+                <div class="description rating_description_value">No Marks</div>
+                <div class="rating_long_description small_description"></div>
+                <span class="rating_id" style="display: none;">blank_2</span>
+              </div>
+            </div>
+          </td>
+      </tr></tbody></table>
+      <div style="display: none; font-size: 0.8em; margin: 5px;" class="custom_ratings">
+        This area will be used by the assessor to leave comments related to this criterion.
+      </div>
+  </td>
+  <td class="nobr points_form toggle_for_hide_points ">
+    <div class="editing" style="white-space: normal">
+      <span style="white-space: nowrap; font-size: 0.8em">
+          
+            <input type="text" aria-label="Points" value="5" class="criterion_points span1 no-margin-bottom">
+           pts
+      </span><br>
+    </div>
+    <div class="displaying">
+      <span style="white-space: nowrap;">
+        <span class="criterion_rating_points_holder" style="display: none;">
+          <span class="criterion_rating_points">&nbsp;</span> /
+        </span>
+        <span class="display_criterion_points">5</span> pts<br>
+      </span>
+    </div>
+    <div class="ignoring">
+      <span> -- </span>
+    </div>
+    <div class="criterion_comments">
+        <a href="https://canvas.uoregon.edu/courses/218245/assignments/1412661#" class="no-hover criterion_comments_link" title="Additional Comments">
+          <img alt="Additional Comments" src="./Project 2_files/rubric_comment-ddae8546ab.png">
+        </a>
+        <div class="custom_rating" style="display: none;"></div>
+    </div>
+  </td>
+</tr>
+
+  <tr class="summary">
+    <td colspan="4">
+      <div class="total_points_holder toggle_for_hide_points " style="float: right; ">
+        <span>Total Points:
+            <span class="rubric_total">
+              50
+            </span>
+ <span class="assessing">out of 50</span>        </span>
+      </div>
+      <div class="editing pull-left">
+        <span id="add_criterion_holder" class="criterion_link"></span>
+      </div>
+      <div class="clear"></div>
+    </td>
+  </tr>
+</tbody>
+</table>
+</div>
+<table style="display: none;">
+  <tbody><tr id="edit_rubric">
+    <td colspan="4">
+      <form id="edit_rubric_form" class="edit-rubric-form no-margin-bottom">
+        <div class="rubric_custom_ratings" style="">
+          <input type="checkbox" id="rubric_custom_rating" class="rubric_custom_rating">
+          <label for="rubric_custom_rating">I'll write free-form comments when assessing students</label>
+        </div>
+          <div class="hide_points" style="">
+            <input type="checkbox" id="hide_points" class="hide_points_checkbox">
+            <label for="hide_points">Remove points from rubric</label>
+          </div>
+          <div class="hide_outcome_results" style="">
+            <input type="checkbox" id="hide_outcome_results" class="hide_outcome_results_checkbox">
+            <label for="hide_outcome_results">Don't post Outcomes results to Learning Mastery Gradebook</label>
+          </div>
+          <div class="rubric_grading" style="">
+            <input type="checkbox" id="grading_rubric" class="grading_rubric_checkbox" checked="">
+            <label for="grading_rubric">Use this rubric for assignment grading</label>
+          </div>
+        <div class="totalling_rubric" style="">
+          <input type="checkbox" id="totalling_rubric" class="totalling_rubric_checkbox">
+          <label for="totalling_rubric">Hide score total for assessment results</label>
+        </div>
+        <div class="ic-Action-header ic-Action-header--half-margin">
+          <div class="ic-Action-header__Primary">
+            <button type="button" class="Button cancel_button">Cancel</button>
+            <button type="submit" class="Button Button--primary save_button">Create Rubric</button>
+          </div>
+        </div>
+      </form>
+    </td>
+  </tr>
+</tbody></table>
+
+    <div style="display: none;" id="rubric_parameters">
+      <input type="hidden" name="rubric_association[association_type]" value="Assignment">
+      <input type="hidden" name="rubric_association[association_id]" value="1412661">
+      <input type="hidden" name="rubric_association[purpose]" value="grading">
+    </div>
+    
+<div id="rubric_long_description_dialog" style="display: none;">
+  <div class="editing">
+    <form id="edit_criterion_form" class="no-margin-bottom">
+      <div>
+        <label class="rating_form_label">Description
+          <textarea class="description" rows="1" name="description"></textarea>
+        </label>
+      </div>
+      <div>
+        <label class="rating_form_label">Long Description
+          <textarea class="long_description" rows="4" name="long_description"></textarea>
+        </label>
+      </div>
+      <div class="button-container">
+        <button type="button" class="btn btn button-secondary cancel_button">Cancel</button>
+        <button type="button" class="btn save_button btn-primary">Update Criterion</button>
+      </div>
+    </form>
+  </div>
+  <div class="displaying">
+    <div class="long_description">
+    </div>
+  </div>
+</div>
+<div id="rubric_criterion_comments_dialog" style="display: none;">
+  <div class="criterion_description" style="border-bottom: 1px solid #ccc; padding: 5px 0; font-size: 1.2em; font-weight: bold; margin-bottom: 5px;" tabindex="-1"></div>
+  <div class="editing">
+    <label for="criterion_comments_textarea">
+      Additional Comments:
+    </label>
+    <textarea id="criterion_comments_textarea" class="criterion_comments" name="criterion_comments" style="width: 370px;"></textarea>
+    <div class="button-container">
+      <button type="button" class="btn btn button-secondary cancel_button">Cancel</button>
+      <button type="button" class="btn save_button">Update Comments</button>
+    </div>
+  </div>
+  <div class="displaying">
+    Additional Comments:
+    <div class="criterion_comments" style="margin-top: 10px;">
+    </div>
+  </div>
+</div>
+<div id="rubric_rating_dialog" style="display: none;">
+  <div class="description" style="border-bottom: 1px solid #ccc; padding: 5px 0; font-size: 1.2em; font-weight: bold; margin-bottom: 5px;">
+    <span id="edit_rating_form_criterion_description"></span>
+  </div>
+  <div class="editing">
+    <form id="edit_rating_form" class="no-margin-bottom">
+      <div class="toggle_for_hide_points">
+        <div><label id="rating_form_score_label" class="rating_form_label">Rating Score</label></div>
+        <span id="rating_form_max_score_label" hidden="">Rating max score</span>
+        <input id="points" aria-labelledby="rating_form_score_label" type="text" size="2" name="points" class="no-margin-bottom span1">
+        <span class="range_rating">to &gt;
+          <input aria-label="Rating min score" type="text" size="2" name="min_points" class="no-margin-bottom span1 min_points" placeholder="min">
+        </span>pts
+      </div>
+      <div>
+        <label for="rating_form_title" class="rating_form_label">Rating Title</label>
+        <input id="rating_form_title" type="text" class="rating_description" style="width: 90%;" name="description">
+      </div>
+      <div>
+        <label for="rating_form_description" class="rating_form_label">Rating Description</label>
+        <textarea id="rating_form_description" rows="4" style="width: 90%;" class="rating_long_description" name="rating_long_description" form="edit_rating_form"></textarea>
+      </div>
+      <div class="button-container">
+        <button type="button" class="btn button-secondary cancel_button">Cancel</button>
+        <button type="button" class="btn btn-primary save_button ok_button">Update Rating</button>
+      </div>
+    </form>
+  </div>
+</div>
+
+  </div>
+  
+<div class="rubric_container rubric  " id="default_rubric" style="display: none;">
+  <div class="screenreader-only"><h2>Rubric</h2></div>
+  <div class="rubric_title">
+    <div style="display: none;" class="links displaying pull-right">
+      <a href="https://canvas.uoregon.edu/courses/218245/rubrics/%7B%7B%20id%20%7D%7D" class=" edit_rubric_link no-print no-hover" style="" title="Edit Rubric" aria-label="Edit Rubric" role="button"><i class="icon-edit standalone-icon"></i></a>
+      <a href="https://canvas.uoregon.edu/search/rubrics?q=" class="find_rubric_link no-print no-hover" style="" title="Find Another Rubric" aria-label="Find Another Rubric" role="button"><i class="icon-search standalone-icon"></i></a>
+        <a href="https://canvas.uoregon.edu/courses/218245/rubric_associations/%7B%7B%20rubric_association_id%20%7D%7D" class="delete_rubric_link no-print no-hover" style="" title="Delete Rubric" aria-label="Delete Rubric" role="button"><i class="icon-trash standalone-icon"></i></a>
+      <div style="display: none;">
+        <div class="use_for_grading">&nbsp;</div>
+        <div class="free_form_criterion_comments">&nbsp;</div>
+        <div class="hide_score_total">&nbsp;</div>
+        <div class="hide_outcome_results">&nbsp;</div>
+        <div class="hide_points">&nbsp;</div>
+        <div class="rubric_association_id">&nbsp;</div>
+          <div class="user_id">&nbsp;</div>
+        <div class="assessment_type"></div>
+        <a href="https://canvas.uoregon.edu/courses/218245/rubric_associations/%7B%7B%20rubric_association_id%20%7D%7D/assessments/%7B%7B%20assessment_id%20%7D%7D" rel="nofollow" class="edit_assessment_link">&nbsp;</a>
+        <a href="https://canvas.uoregon.edu/courses/218245/rubrics/%7B%7B%20rubric_id%20%7D%7D" class="edit_rubric_url">&nbsp;</a>
+          <a href="https://canvas.uoregon.edu/courses/218245/rubric_associations/%7B%7B%20association_id%20%7D%7D" class="delete_rubric_url">&nbsp;</a>
+      </div>
+    </div>
+    <div style="float: right; font-size: 0.8em; display: none;" class="links displaying locked">
+      <span style="">Can't change a rubric once you've started using it.</span>
+        <a href="https://canvas.uoregon.edu/courses/218245/rubric_associations/%7B%7B%20association_id%20%7D%7D" class="delete_rubric_url" style="display: none;">&nbsp;</a>
+    </div>
+
+    <div class="editing" style="float: right;">
+      <a href="https://canvas.uoregon.edu/search/rubrics?q=" class="find_rubric_link icon-search" style="" title="Find Existing Rubric">Find a Rubric</a>
+    </div>
+    <div class="editing" style="text-align: left">
+      <label for="rubric-title">Title:</label>
+      <input id="rubric-title" type="text" class="no-margin-bottom" name="title" value="Some Rubric" style="width: 200px;" maxlength="255" aria-label="Title:">
+      <a href="https://canvas.uoregon.edu/search/rubrics?q=" style="display: none;"><img alt="" src="./Project 2_files/find-6164443e2a.png"> Find Rubric</a>
+    </div>
+    <div class="displaying">
+      <span class="title" tabindex="-1">Title</span>
+    </div>
+    <div class="has-assessments-warning" style="display: none;">
+      You've already rated students with this rubric. Any major changes could affect their assessment results.
+    </div>
+  </div>
+<table class="rubric_table">
+<caption>
+  <div class="screenreader-only">
+    <span class="title">Title</span>
+  </div>
+</caption>
+<thead>
+  <tr>
+    <th scope="col">Criteria</th>
+    <th scope="col">Ratings</th>
+    <th scope="col" class="toggle_for_hide_points ">
+      Pts
+    </th>
+  </tr>
+</thead>
+<tbody>
+  
+<tr id="criterion_blank" class="criterion blank" style="display: none;">
+  <td class="criterion_description hover-container pad-box-micro">
+    <div class="container">
+      <div class="links editing">
+          <a href="https://canvas.uoregon.edu/courses/218245/assignments/1412661#" class="edit_criterion_link"><i class="icon-edit standalone-icon"></i><span class="screenreader-only">Edit criterion description</span></a>
+        <a href="https://canvas.uoregon.edu/courses/218245/assignments/1412661#" class="delete_criterion_link"><i class="icon-trash standalone-icon"></i><span class="screenreader-only">Delete criterion row</span></a>
+      </div>
+      <div class="description_content">
+        <span class="outcome_sr_content" aria-hidden="true">
+          <i class="learning_outcome_flag icon-outcomes" aria-hidden="true"></i>
+          <span class="screenreader-only">This criterion is linked to a Learning Outcome</span>
+        </span>
+        <span class="description description_title">Description of criterion</span>
+        <span class="learning_outcome_id" style="display: none;"></span>
+        <span class="criterion_id" style="display: none;"></span>
+          <div class="long_description small_description"></div>
+        <div class="hide_when_learning_outcome ">
+          <div class="criterion_use_range_div editing toggle_for_hide_points ">
+            <label>Range
+              <input type="checkbox" class="criterion_use_range"></label>
+          </div>
+        </div>
+        <div class="threshold toggle_for_hide_points ">
+          threshold:
+          <span class="mastery_points">5</span> pts
+        </div>
+      </div>
+
+    </div>
+  </td>
+  <td style="padding: 0;">
+      <table class="ratings" style=""><tbody><tr>
+          <td class="rating edge_rating
+                
+                ">
+            <div class="container">
+              <div class="rating-main">
+                  <div class="editing links">
+                    <a href="https://canvas.uoregon.edu/courses/218245/assignments/1412661#" class="edit_rating_link"><i class="icon-edit standalone-icon"></i><span class="screenreader-only">Edit rating</span></a>
+                    <a href="https://canvas.uoregon.edu/courses/218245/assignments/1412661#" class="delete_rating_link"><i class="icon-trash standalone-icon"></i><span class="screenreader-only">Delete rating</span></a>
+                  </div>
+                  <div class="clear"></div>
+                <span class="nobr toggle_for_hide_points ">
+                  <span class="points">5</span>
+                  <span class="range_rating" style="display: none;">to &gt;<span class="min_points">0</span></span> pts
+                </span>
+                <div class="description rating_description_value">Full Marks</div>
+                <div class="rating_long_description small_description"></div>
+                <span class="rating_id" style="display: none;">blank</span>
+              </div>
+                <div class="editing links add_rating_link">
+                  <a href="https://canvas.uoregon.edu/courses/218245/assignments/1412661#" class="add_rating_link_after" aria-label="Add rating"><i class="icon-add icon-Solid"></i></a>
+                </div>
+            </div>
+          </td>
+          <td class="rating edge_rating
+                infinitesimal
+                ">
+            <div class="container">
+              <div class="rating-main">
+                  <div class="editing links">
+                    <a href="https://canvas.uoregon.edu/courses/218245/assignments/1412661#" class="edit_rating_link"><i class="icon-edit standalone-icon"></i><span class="screenreader-only">Edit rating</span></a>
+                    <a href="https://canvas.uoregon.edu/courses/218245/assignments/1412661#" class="delete_rating_link"><i class="icon-trash standalone-icon"></i><span class="screenreader-only">Delete rating</span></a>
+                  </div>
+                  <div class="clear"></div>
+                <span class="nobr toggle_for_hide_points ">
+                  <span class="points">0</span>
+                  <span class="range_rating" style="display: none;">to &gt;<span class="min_points">0</span></span> pts
+                </span>
+                <div class="description rating_description_value">No Marks</div>
+                <div class="rating_long_description small_description"></div>
+                <span class="rating_id" style="display: none;">blank_2</span>
+              </div>
+            </div>
+          </td>
+      </tr></tbody></table>
+      <div style="display: none; font-size: 0.8em; margin: 5px;" class="custom_ratings">
+        This area will be used by the assessor to leave comments related to this criterion.
+      </div>
+  </td>
+  <td class="nobr points_form toggle_for_hide_points ">
+    <div class="editing" style="white-space: normal">
+      <span style="white-space: nowrap; font-size: 0.8em">
+          
+            <input type="text" aria-label="Points" value="5" class="criterion_points span1 no-margin-bottom">
+           pts
+      </span><br>
+    </div>
+    <div class="displaying">
+      <span style="white-space: nowrap;">
+        <span class="criterion_rating_points_holder" style="display: none;">
+          <span class="criterion_rating_points">&nbsp;</span> /
+        </span>
+        <span class="display_criterion_points">5</span> pts<br>
+      </span>
+    </div>
+    <div class="ignoring">
+      <span> -- </span>
+    </div>
+    <div class="criterion_comments">
+        <a href="https://canvas.uoregon.edu/courses/218245/assignments/1412661#" class="no-hover criterion_comments_link" title="Additional Comments">
+          <img alt="Additional Comments" src="./Project 2_files/rubric_comment-ddae8546ab.png">
+        </a>
+        <div class="custom_rating" style="display: none;"></div>
+    </div>
+  </td>
+</tr>
+
+  <tr id="criterion_1" class="criterion" style="display: table-row;">
+  <td class="criterion_description hover-container pad-box-micro">
+    <div class="container">
+      <div class="links editing">
+          <a href="https://canvas.uoregon.edu/courses/218245/assignments/1412661#" class="edit_criterion_link"><i class="icon-edit standalone-icon"></i><span class="screenreader-only">Edit criterion description</span></a>
+        <a href="https://canvas.uoregon.edu/courses/218245/assignments/1412661#" class="delete_criterion_link"><i class="icon-trash standalone-icon"></i><span class="screenreader-only">Delete criterion row</span></a>
+      </div>
+      <div class="description_content">
+        <span class="outcome_sr_content" aria-hidden="true">
+          <i class="learning_outcome_flag icon-outcomes" aria-hidden="true"></i>
+          <span class="screenreader-only">This criterion is linked to a Learning Outcome</span>
+        </span>
+        <span class="description description_title">Description of criterion</span>
+        <span class="learning_outcome_id" style="display: none;"></span>
+        <span class="criterion_id" style="display: none;"></span>
+          <div class="long_description small_description"></div>
+        <div class="hide_when_learning_outcome ">
+          <div class="criterion_use_range_div editing toggle_for_hide_points ">
+            <label>Range
+              <input type="checkbox" class="criterion_use_range"></label>
+          </div>
+        </div>
+        <div class="threshold toggle_for_hide_points ">
+          threshold:
+          <span class="mastery_points">5</span> pts
+        </div>
+      </div>
+
+    </div>
+  </td>
+  <td style="padding: 0;">
+      <table class="ratings" style=""><tbody><tr>
+          <td class="rating edge_rating
+                
+                ">
+            <div class="container">
+              <div class="rating-main">
+                  <div class="editing links">
+                    <a href="https://canvas.uoregon.edu/courses/218245/assignments/1412661#" class="edit_rating_link"><i class="icon-edit standalone-icon"></i><span class="screenreader-only">Edit rating</span></a>
+                    <a href="https://canvas.uoregon.edu/courses/218245/assignments/1412661#" class="delete_rating_link"><i class="icon-trash standalone-icon"></i><span class="screenreader-only">Delete rating</span></a>
+                  </div>
+                  <div class="clear"></div>
+                <span class="nobr toggle_for_hide_points ">
+                  <span class="points">5</span>
+                  <span class="range_rating" style="display: none;">to &gt;<span class="min_points">0</span></span> pts
+                </span>
+                <div class="description rating_description_value">Full Marks</div>
+                <div class="rating_long_description small_description"></div>
+                <span class="rating_id" style="display: none;">blank</span>
+              </div>
+                <div class="editing links add_rating_link">
+                  <a href="https://canvas.uoregon.edu/courses/218245/assignments/1412661#" class="add_rating_link_after" aria-label="Add rating"><i class="icon-add icon-Solid"></i></a>
+                </div>
+            </div>
+          </td>
+          <td class="rating edge_rating
+                infinitesimal
+                ">
+            <div class="container">
+              <div class="rating-main">
+                  <div class="editing links">
+                    <a href="https://canvas.uoregon.edu/courses/218245/assignments/1412661#" class="edit_rating_link"><i class="icon-edit standalone-icon"></i><span class="screenreader-only">Edit rating</span></a>
+                    <a href="https://canvas.uoregon.edu/courses/218245/assignments/1412661#" class="delete_rating_link"><i class="icon-trash standalone-icon"></i><span class="screenreader-only">Delete rating</span></a>
+                  </div>
+                  <div class="clear"></div>
+                <span class="nobr toggle_for_hide_points ">
+                  <span class="points">0</span>
+                  <span class="range_rating" style="display: none;">to &gt;<span class="min_points">0</span></span> pts
+                </span>
+                <div class="description rating_description_value">No Marks</div>
+                <div class="rating_long_description small_description"></div>
+                <span class="rating_id" style="display: none;">blank_2</span>
+              </div>
+            </div>
+          </td>
+      </tr></tbody></table>
+      <div style="display: none; font-size: 0.8em; margin: 5px;" class="custom_ratings">
+        This area will be used by the assessor to leave comments related to this criterion.
+      </div>
+  </td>
+  <td class="nobr points_form toggle_for_hide_points ">
+    <div class="editing" style="white-space: normal">
+      <span style="white-space: nowrap; font-size: 0.8em">
+          
+            <input type="text" aria-label="Points" value="5" class="criterion_points span1 no-margin-bottom">
+           pts
+      </span><br>
+    </div>
+    <div class="displaying">
+      <span style="white-space: nowrap;">
+        <span class="criterion_rating_points_holder" style="display: none;">
+          <span class="criterion_rating_points">&nbsp;</span> /
+        </span>
+        <span class="display_criterion_points">5</span> pts<br>
+      </span>
+    </div>
+    <div class="ignoring">
+      <span> -- </span>
+    </div>
+    <div class="criterion_comments">
+        <a href="https://canvas.uoregon.edu/courses/218245/assignments/1412661#" class="no-hover criterion_comments_link" title="Additional Comments">
+          <img alt="Additional Comments" src="./Project 2_files/rubric_comment-ddae8546ab.png">
+        </a>
+        <div class="custom_rating" style="display: none;"></div>
+    </div>
+  </td>
+</tr><tr class="summary">
+    <td colspan="4">
+      <div class="total_points_holder toggle_for_hide_points " style="float: right; ">
+        <span>Total Points:
+            <span class="rubric_total">
+              5
+            </span>
+ <span class="assessing">out of 5</span>        </span>
+      </div>
+      <div class="editing pull-left">
+        <span id="add_criterion_holder" class="criterion_link"></span>
+      </div>
+      <div class="clear"></div>
+    </td>
+  </tr>
+</tbody>
+</table>
+</div>
+<table style="display: none;">
+  <tbody><tr id="edit_rubric">
+    <td colspan="4">
+      <form id="edit_rubric_form" class="edit-rubric-form no-margin-bottom">
+        <div class="rubric_custom_ratings" style="">
+          <input type="checkbox" id="rubric_custom_rating" class="rubric_custom_rating">
+          <label for="rubric_custom_rating">I'll write free-form comments when assessing students</label>
+        </div>
+          <div class="hide_points" style="">
+            <input type="checkbox" id="hide_points" class="hide_points_checkbox">
+            <label for="hide_points">Remove points from rubric</label>
+          </div>
+          <div class="hide_outcome_results" style="">
+            <input type="checkbox" id="hide_outcome_results" class="hide_outcome_results_checkbox">
+            <label for="hide_outcome_results">Don't post Outcomes results to Learning Mastery Gradebook</label>
+          </div>
+          <div class="rubric_grading" style="">
+            <input type="checkbox" id="grading_rubric" class="grading_rubric_checkbox">
+            <label for="grading_rubric">Use this rubric for assignment grading</label>
+          </div>
+        <div class="totalling_rubric" style="">
+          <input type="checkbox" id="totalling_rubric" class="totalling_rubric_checkbox">
+          <label for="totalling_rubric">Hide score total for assessment results</label>
+        </div>
+        <div class="ic-Action-header ic-Action-header--half-margin">
+          <div class="ic-Action-header__Primary">
+            <button type="button" class="Button cancel_button">Cancel</button>
+            <button type="submit" class="Button Button--primary save_button">Create Rubric</button>
+          </div>
+        </div>
+      </form>
+    </td>
+  </tr>
+</tbody></table>
+
+
+  <div id="assignment_external_tools"><div></div></div>
+
+  
+
+
+          </div>
+        </div>
+        <div id="right-side-wrapper" class="ic-app-main-content__secondary">
+          <aside id="right-side" role="complementary">
+            
+<div id="sidebar_content">
+
+
+</div>
+
+          </aside>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+    <div style="display:none;"><!-- Everything inside of this should always stay hidden -->
+        <div id="page_view_id">0dcfc3a5-3199-45b5-9296-5eda44da9dbd</div>
+    </div>
+  <div id="aria_alerts" class="hide-text affix" role="alert" aria-live="assertive"></div>
+  <div id="StudentTray__Container"></div>
+  
+
+  <script>
+    Object.assign(
+      ENV,
+      {}
+    )
+  </script>
+
+<link rel="preload" href="https://du11hjcvx0uqb.cloudfront.net/dist/webpack-production/inst_fs_service_worker-c-cf69d8b6de.js" as="script" type="text/javascript"><script>
+//<![CDATA[
+(window.bundles || (window.bundles = [])).push('inst_fs_service_worker');
+//]]>
+</script>
+  <script>
+//<![CDATA[
+
+      ;["https://instructure-uploads.s3.amazonaws.com/account_23910000000000001/attachments/15494127/Custom.js"].forEach(function(src) {
+        var s = document.createElement('script'); s.src = src; s.async = false;
+        document.head.appendChild(s)
+      });
+//]]>
+</script>
+
+</div> <!-- #application -->
+
+
+<div></div><div id="nav-tray-portal" style="position: relative; z-index: 99;"></div><div class="tinymce-a11y-checker-container"></div></body></html>
